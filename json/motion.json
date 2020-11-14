@@ -1,0 +1,19 @@
+{
+    "resourceType": "SampleList",
+    "dataSourceAddress": {
+        "resourceType": "DataSourceAddress",
+        "did": "EUI64-D0CF5EFFFE59F539-3-Motion",
+        "locationId": "213806",
+        "serverDid": "EUI64-0090DAFFFF00738C",
+        "variableName": {
+            "resourceType": "VariableName",
+            "name": "motion"
+        },
+        "instanceNumber": 0
+    },
+    "list": [{
+        "resourceType": "SampleMotion",
+        "sampleTime": 1569577497058,
+        "value": 850,
+        "timeLastMotion": 1569575319658
+    }]

@@ -1,0 +1,18 @@
+"messageType": "GetLocationsResponse", "responseCode": {
+	"resourceType": "ResponseCode",
+	"name": "success"
+}, "timeSent": 1569571720930, "list": [{
+	"resourceType": "LocationDTO",
+	"timeCreated": 1569571720930,
+	"locationAddress": {
+		"resourceType": "LocationAddress",
+		"locationId": "213806",
+		"serverDid": "EUI64-0090DAFFFF0040C6"
+	},
+	"timeModified": 1568766096271,
+	"accountId": "294988",
+	"name": "Demo",
+	"gwdid": "EUI64-0090DAFFFF00738C",
+	"linkServerDid": "EUI64-0090DAFFFF0040C6",
+	"isMultiLocation": false
+}]

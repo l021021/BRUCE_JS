@@ -1,0 +1,738 @@
+┌─────────┬────────────┬───────────┬─────────────────────────────┬──────────────────────────┬──────────┐
+│ (index) │ locationId │ accountId │            name             │          gwdid           │ gwOnline │
+├─────────┼────────────┼───────────┼─────────────────────────────┼──────────────────────────┼──────────┤
+│    0    │  '114877'  │ '220781'  │          'test36'           │ 'EUI64-0090DAFFFF007136' │  false   │
+│    1    │  '607891'  │ '294988'  │        'Test36(4U)'         │ 'EUI64-0090DAFFFF007136' │  false   │
+│    2    │  '581669'  │ '294988'  │          'Test36'           │ 'EUI64-0090DAFFFF007136' │  false   │
+│    3    │  '537931'  │ '294988'  │          'TEST36'           │ 'EUI64-0090DAFFFF007136' │  false   │
+│    4    │  '74365'   │ '352024'  │     'Kerry Properties'      │ 'EUI64-0090DAFFFF0070EA' │  false   │
+│    5    │  '221376'  │ '387102'  │         'Kerry SKC'         │ 'EUI64-0090DAFFFF006A16' │  false   │
+│    6    │  '897737'  │ '300769'  │    'Test17(wafer-test)'     │ 'EUI64-0090DAFFFF006A4C' │  false   │
+│    7    │  '224112'  │ '220781'  │         'TEST14-HI'         │ 'EUI64-0090DAFFFF0060D4' │  false   │
+│    8    │  '59902'   │ '220781'  │      'TestAP（shibo)'       │ 'EUI64-0090DAFFFF0064AC' │  false   │
+│    9    │  '447224'  │ '130626'  │ 'Astra Zeneca P1 Floor 3-A' │ 'EUI64-0090DAFFFF006A6A' │  false   │
+│   10    │  '573742'  │ '321839'  │      'Envision-Desks'       │ 'EUI64-0090DAFFFF0064AC' │  false   │
+│   11    │  '576515'  │ '135643'  │         'UNICROSS'          │ 'EUI64-0090DAFFFF0060D4' │  false   │
+│   12    │  '213806'  │ '294988'  │           'Demo'            │ 'EUI64-0090DAFFFF00738C' │  false   │
+│   13    │  '610087'  │ '294988'  │          'Test36'           │ 'EUI64-0090DAFFFF007136' │  false   │
+│   14    │  '305026'  │ '324291'  │   'CHC NAVIGATION(HUACE)'   │ 'EUI64-0090DAFFFF0071D0' │  false   │
+│   15    │  '274189'  │ '181010'  │           'Sunon'           │ 'EUI64-0090DAFFFF0069DA' │  false   │
+│   16    │  '507828'  │ '393038'  │ 'Astra Zeneca P1 Floor 4-B' │ 'EUI64-0090DAFFFF006A34' │  false   │
+│   17    │  '25029'   │ '391959'  │          'Test15'           │ 'EUI64-0090DAFFFF006132' │  false   │
+│   18    │  '480686'  │ '208560'  │          'Test14'           │ 'EUI64-0090DAFFFF0060D4' │  false   │
+│   19    │  '90399'   │ '208560'  │          'TEST14'           │ 'EUI64-0090DAFFFF0060D4' │  false   │
+│   20    │  '329312'  │ '269689'  │ 'Astra Zeneca P1 Floor 5-A' │ 'EUI64-0090DAFFFF006A3A' │  false   │
+│   21    │  '81386'   │ '188353'  │          'Test46'           │ 'EUI64-0090DAFFFF006AA2' │  false   │
+│   22    │  '459374'  │ '128243'  │          'Test54'           │ 'EUI64-0090DAFFFF006A24' │  false   │
+│   23    │  '733297'  │ '344398'  │          'Test44'           │ 'EUI64-0090DAFFFF005DF0' │  false   │
+│   24    │  '60116'   │ '188559'  │        'GATEWAY1001'        │ 'EUI64-0090DAFFFF0073B8' │  false   │
+│   25    │  '60358'   │ '170182'  │ 'Astra Zeneca P1 Floor 2-B' │ 'EUI64-0090DAFFFF0069A2' │  false   │
+│   26    │  '88252'   │ '341881'  │ 'Astra Zeneca P1 Floor 2-A' │ 'EUI64-0090DAFFFF00699C' │  false   │
+│   27    │  '254896'  │ '313420'  │ 'TurnOne - Vanke Dongguan'  │ 'EUI64-0090DAFFFF007154' │  false   │
+│   28    │  '160792'  │ '251058'  │         'envision'          │ 'EUI64-0090DAFFFF0062E0' │  false   │
+│   29    │  '673792'  │ '387102'  │          'KPCPMSH'          │ 'EUI64-0090DAFFFF006A16' │  false   │
+│   30    │  '18735'   │ '296891'  │          'Test23'           │ 'EUI64-0090DAFFFF0069F2' │  false   │
+│   31    │  '108899'  │ '233014'  │      'Wafer-yokogawa'       │ 'EUI64-0090DAFFFF006924' │  false   │
+│   32    │  '157285'  │ '245277'  │      'Test41-QuanCan'       │ 'EUI64-0090DAFFFF007326' │  false   │
+│   33    │  '854940'  │ '288033'  │          'Test21'           │ 'EUI64-0090DAFFFF006A94' │  false   │
+│   34    │  '797296'  │ '216978'  │           'Novah'           │ 'EUI64-0090DAFFFF006A98' │  false   │
+│   35    │  '229349'  │ '294988'  │         'Fangtang'          │ 'EUI64-0090DAFFFF00586C' │  false   │
+│   36    │  '879448'  │ '294988'  │     'Test 18 in office'     │ 'EUI64-0090DAFFFF006A5A' │  false   │
+│   37    │  '127449'  │ '243067'  │     'Test20（ZZNOKIE）'     │ 'EUI64-0090DAFFFF0069FE' │  false   │
+│   38    │  '338119'  │ '282663'  │     'ROAMING-TEST-GW1'      │ 'EUI64-0090DAFFFF0063DE' │  false   │
+│   39    │  '29409'   │ '282663'  │         'Sugarcube'         │ 'EUI64-0090DAFFFF00586C' │  false   │
+│   40    │  '715357'  │ '282663'  │         'Sugarcube'         │ 'EUI64-0090DAFFFF00642C' │  false   │
+│   41    │  '652990'  │ '359599'  │ 'Astra Zeneca P1 Floor 3-C' │ 'EUI64-0090DAFFFF006A0A' │  false   │
+│   42    │  '493900'  │ '166109'  │    'TurnOne - HuaiAn 6'     │ 'EUI64-0090DAFFFF005DF2' │  false   │
+│   43    │  '581333'  │ '166109'  │    'TurnOne - HuaiAn 9'     │ 'EUI64-0090DAFFFF0073BC' │  false   │
+│   44    │  '722830'  │ '166109'  │    'TurnOne - HuaiAn 7'     │ 'EUI64-0090DAFFFF00718C' │  false   │
+│   45    │  '480089'  │ '166109'  │    'TurnOne - HuaiAn 8'     │ 'EUI64-0090DAFFFF007140' │  false   │
+│   46    │  '248795'  │ '210900'  │          'Test19'           │ 'EUI64-0090DAFFFF006AA4' │  false   │
+│   47    │  '503370'  │ '283191'  │      'Vanke Shanghai'       │ 'EUI64-0090DAFFFF007266' │  false   │
+│   48    │  '402837'  │ '173139'  │         'TuoWen_15'         │ 'EUI64-0090DAFFFF006AA2' │  false   │
+│   49    │  '668617'  │ '100401'  │ 'Astra Zeneca P1 Floor 4-A' │ 'EUI64-0090DAFFFF0069A0' │  false   │
+│   50    │  '608739'  │ '279248'  │ 'Astra Zeneca P1 Floor 5-B' │ 'EUI64-0090DAFFFF006A7A' │  false   │
+│   51    │  '212446'  │ '249206'  │       'Test29(PF15)'        │ 'EUI64-0090DAFFFF00730E' │  false   │
+│   52    │  '268429'  │ '122355'  │         'TuoWen_17'         │ 'EUI64-0090DAFFFF00695C' │  false   │
+│   53    │  '306571'  │ '384019'  │      'Test22（Leanon)'      │ 'EUI64-0090DAFFFF00692E' │  false   │
+│   54    │  '996052'  │ '351001'  │      'huawei-2-e2-3f'       │ 'EUI64-0090DAFFFF00744A' │  false   │
+│   55    │  '185308'  │ '118243'  │ 'Astra Zeneca P1 Floor 1-B' │ 'EUI64-0090DAFFFF0068F2' │  false   │
+│   56    │  '805136'  │ '170388'  │    'Test40 （Turnone）'     │ 'EUI64-0090DAFFFF006922' │  false   │
+│   57    │  '445778'  │ '164129'  │          'Test18'           │ 'EUI64-0090DAFFFF006A5A' │  false   │
+│   58    │  '223516'  │ '133134'  │      'Ucommune-HuaMao'      │ 'EUI64-0090DAFFFF007104' │  false   │
+│   59    │  '952675'  │ '316573'  │         'TuoWen_16'         │ 'EUI64-0090DAFFFF005E6C' │  false   │
+│   60    │  '83561'   │ '182118'  │ 'Astra Zeneca P1 Floor 3-B' │ 'EUI64-0090DAFFFF0073B8' │  false   │
+│   61    │  '447223'  │ '395405'  │          'TEST12'           │ 'EUI64-0090DAFFFF0073A8' │  false   │
+│   62    │  '912706'  │ '163805'  │      'Huawei-3-M6-3F'       │ 'EUI64-0090DAFFFF0071AA' │  false   │
+│   63    │  '545672'  │ '367768'  │          'KPCPMSH'          │ 'EUI64-0090DAFFFF00691A' │  false   │
+│   64    │  '578981'  │ '318485'  │          'Test53'           │ 'EUI64-0090DAFFFF006910' │  false   │
+│   65    │  '545528'  │ '254159'  │         'Tutorial'          │ 'EUI64-0090DAFFFF0062E0' │  false   │
+│   66    │  '405639'  │ '254159'  │          'TeDavid'          │ 'EUI64-0090DAFFFF0064DA' │  false   │
+│   67    │  '795131'  │ '254159'  │         'TestLast'          │ 'EUI64-0090DAFFFF0062DA' │  false   │
+│   68    │  '750043'  │ '254159'  │         'Kelly_Two'         │ 'EUI64-0090DAFFFF0062DA' │  false   │
+│   69    │  '252208'  │ '386206'  │      'Ucommune-WeiTuo'      │ 'EUI64-0090DAFFFF0072A6' │  false   │
+│   70    │  '264135'  │ '355264'  │         'Wafer_SH'          │ 'EUI64-0090DAFFFF006AA4' │  false   │
+│   71    │  '521209'  │ '355264'  │      'Wafer Shanghai'       │ 'EUI64-0090DAFFFF006AA4' │  false   │
+│   72    │  '795663'  │ '397422'  │          'DFOCUS'           │ 'EUI64-0090DAFFFF006ABA' │  false   │
+│   73    │  '194130'  │ '397422'  │          'Dfocus'           │ 'EUI64-0090DAFFFF006ABA' │  false   │
+│   74    │  '943917'  │ '331786'  │            'JF'             │ 'EUI64-0090DAFFFF0070CE' │  false   │
+│   75    │  '144452'  │ '331786'  │            'JF'             │ 'EUI64-0090DAFFFF0070CE' │  false   │
+│   76    │  '742959'  │ '331786'  │            'JF'             │ 'EUI64-0090DAFFFF0070CE' │  false   │
+│   77    │  '598597'  │ '300769'  │    'Test17(wafer_test)'     │ 'EUI64-0090DAFFFF006A4C' │  false   │
+│   78    │  '127776'  │ '300769'  │    'Test17(wafer-test)'     │ 'EUI64-0090DAFFFF006A4C' │  false   │
+│   79    │  '190773'  │ '135643'  │     'Envison-Meetings'      │ 'EUI64-0090DAFFFF0063DE' │  false   │
+│   80    │  '786462'  │ '135643'  │           'kelly'           │ 'EUI64-0090DAFFFF0062DA' │  false   │
+│   81    │  '162495'  │ '135643'  │         'RJS-TRIAL'         │ 'EUI64-0090DAFFFF0060F2' │  false   │
+│   82    │  '464916'  │ '220781'  │         'Sugarcube'         │ 'EUI64-0090DAFFFF00586C' │  false   │
+│   83    │  '128423'  │ '220781'  │          'Test22'           │ 'EUI64-0090DAFFFF00692E' │  false   │
+│   84    │  '460286'  │ '220781'  │      'Test4(yinlian)'       │ 'EUI64-0090DAFFFF0060F2' │  false   │
+│   85    │  '981791'  │ '220781'  │          'Test19'           │ 'EUI64-0090DAFFFF006AA4' │  false   │
+│   86    │  '771289'  │ '220781'  │          'TEST25'           │ 'EUI64-0090DAFFFF007168' │  false   │
+│   87    │  '117445'  │ '220781'  │          'Test21'           │ 'EUI64-0090DAFFFF006A94' │  false   │
+│   88    │  '872436'  │ '220781'  │        'TEST11(JQ1)'        │ 'EUI64-0090DAFFFF006904' │  false   │
+│   89    │  '116251'  │ '220781'  │        'Wafer_test'         │ 'EUI64-0090DAFFFF0062E0' │  false   │
+│   90    │  '186981'  │ '220781'  │          'Test23'           │ 'EUI64-0090DAFFFF0069F2' │  false   │
+│   91    │  '332536'  │ '220781'  │          'test77'           │ 'EUI64-0090DAFFFF00718C' │  false   │
+│   92    │  '618079'  │ '220781'  │       'Test5(kuban)'        │ 'EUI64-0090DAFFFF006048' │  false   │
+│   93    │  '285048'  │ '220781'  │       'Test16-skyfm'        │ 'EUI64-0090DAFFFF00642C' │  false   │
+│   94    │  '399621'  │ '220781'  │        'TEST8 (4U)'         │ 'EUI64-0090DAFFFF006AAC' │  false   │
+│   95    │  '119371'  │ '220781'  │          'TEST29'           │ 'EUI64-0090DAFFFF00730E' │  false   │
+│   96    │  '507675'  │ '220781'  │        'TEST9(JQ3）'        │ 'EUI64-0090DAFFFF0069C8' │  false   │
+│   97    │  '595846'  │ '220781'  │          'Test20'           │ 'EUI64-0090DAFFFF0069FE' │  false   │
+│   98    │  '499735'  │ '220781'  │     'Fangtang Huizhou'      │ 'EUI64-0090DAFFFF006438' │  false   │
+│   99    │  '11902'   │ '220781'  │          'Test18'           │ 'EUI64-0090DAFFFF006A5A' │  false   │
+│   100   │  '737919'  │ '220781'  │          'Test17'           │ 'EUI64-0090DAFFFF006A4C' │  false   │
+│   101   │  '696237'  │ '220781'  │          'TEST10'           │ 'EUI64-0090DAFFFF0069FC' │  false   │
+│   102   │  '644082'  │ '220781'  │          'test88'           │ 'EUI64-0090DAFFFF0073BC' │  false   │
+│   103   │  '689955'  │ '220781'  │       'Test12(焕鸿)'        │ 'EUI64-0090DAFFFF0073A8' │  false   │
+│   104   │  '222223'  │ '220781'  │          'Test13'           │ 'EUI64-0090DAFFFF006AC6' │  false   │
+│   105   │  '264768'  │ '369704'  │          'Test28'           │ 'EUI64-0090DAFFFF00738C' │  false   │
+│   106   │  '396612'  │ '296944'  │          'Test42'           │ 'EUI64-0090DAFFFF007216' │  false   │
+│   107   │  '938433'  │ '278098'  │ 'Astra Zeneca P1 Floor 1-A' │ 'EUI64-0090DAFFFF0069CA' │  false   │
+│   108   │  '328916'  │ '201374'  │         'TuoWen_19'         │ 'EUI64-0090DAFFFF007148' │  false   │
+│   109   │  '917830'  │ '396688'  │          'Test25'           │ 'EUI64-0090DAFFFF007168' │  false   │
+│   110   │  '783825'  │ '338354'  │       'Test26(PF11)'        │ 'EUI64-0090DAFFFF00738A' │  false   │
+│   111   │  '732449'  │ '164832'  │         'TuoWen_18'         │ 'EUI64-0090DAFFFF00719A' │  false   │
+│   112   │  '114190'  │ '263804'  │      'Huawei-1-E2-2F'       │ 'EUI64-0090DAFFFF006900' │  false   │
+│   113   │  '569453'  │ '317480'  │          'Test35'           │ 'EUI64-0090DAFFFF0069FC' │  false   │
+│   114   │  '434888'  │ '294936'  │ 'Astra Zeneca P1 Floor 2-C' │ 'EUI64-0090DAFFFF006A8A' │  false   │
+└─────────┴────────────┴───────────┴─────────────────────────────┴──────────────────────────┴──────────┘
+total 727 sensors configured while 550 sensors online
+┌─────────┬──────────────────────────────┬────────────┬────────────────┬───────────┬──────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │             did              │ locationId │ lifeCycleState │ isChassis │                    nameSetByUser                     │        type         │
+├─────────┼──────────────────────────────┼────────────┼────────────────┼───────────┼──────────────────────────────────────────────────────┼─────────────────────┤
+│    0    │   'EUI64-0080E10300056F40'   │  '74365'   │   'present'    │   true    │                      'J会议室'                       │ 'physicalOrChassis' │
+│    1    │   'EUI64-0080E1030004442C'   │  '74365'   │   'present'    │   true    │                       '卓悦居'                       │ 'physicalOrChassis' │
+│    2    │   'EUI64-0080E10300043471'   │  '74365'   │   'present'    │   true    │                      'K会议室'                       │ 'physicalOrChassis' │
+│    3    │   'EUI64-0080E10300037E09'   │  '74365'   │   'present'    │   true    │                      'A会议室'                       │ 'physicalOrChassis' │
+│    4    │   'EUI64-00124B0018F05BCC'   │  '74365'   │    'shadow'    │   true    │                      'COMPANY'                       │ 'physicalOrChassis' │
+│    5    │   'EUI64-0080E103000439FC'   │  '74365'   │   'present'    │   true    │                       '桦枫居'                       │ 'physicalOrChassis' │
+│    6    │   'EUI64-0080E10300037BA3'   │  '74365'   │   'present'    │   true    │                       '作战室'                       │ 'physicalOrChassis' │
+│    7    │   'EUI64-0080E103000379CE'   │  '74365'   │   'present'    │   true    │                       '海碧台'                       │ 'physicalOrChassis' │
+│    8    │   'EUI64-0080E10300037FEA'   │  '74365'   │   'present'    │   true    │                        '华庭'                        │ 'physicalOrChassis' │
+│    9    │   'EUI64-0080E10300037828'   │  '74365'   │    'shadow'    │   true    │                       '作战室'                       │ 'physicalOrChassis' │
+│   10    │   'EUI64-0080E10300037878'   │  '74365'   │   'present'    │   true    │                       '雅颂居'                       │ 'physicalOrChassis' │
+│   11    │   'EUI64-0080E10300044602'   │  '74365'   │   'present'    │   true    │                        '逸庐'                        │ 'physicalOrChassis' │
+│   12    │   'EUI64-0080E10300037BCA'   │  '74365'   │   'present'    │   true    │                        '榕城'                        │ 'physicalOrChassis' │
+│   13    │   'EUI64-0080E103000447C9'   │  '74365'   │   'present'    │   true    │                      'J会议室'                       │ 'physicalOrChassis' │
+│   14    │   'EUI64-0080E10300037EC0'   │  '74365'   │   'present'    │   true    │                       '云荷廷'                       │ 'physicalOrChassis' │
+│   15    │   'EUI64-0080E10300043EA7'   │  '610087'  │   'present'    │   true    │                    '02 Area 3E4D'                    │ 'physicalOrChassis' │
+│   16    │   'EUI64-90FD9FFFFEA95288'   │  '610087'  │   'present'    │   true    │                   'Desk Desk 4129'                   │ 'physicalOrChassis' │
+│   17    │   'EUI64-90FD9FFFFEA94252'   │  '610087'  │    'shadow'    │   true    │                    '08 Area FC13'                    │ 'physicalOrChassis' │
+│   18    │   'EUI64-D0CF5EFFFE793057'   │  '610087'  │    'shadow'    │   true    │                  'Chair Chair D554'                  │ 'physicalOrChassis' │
+│   19    │   'EUI64-90FD9FFFFEA93987'   │  '610087'  │    'shadow'    │   true    │                    '05 Area 3B9A'                    │ 'physicalOrChassis' │
+│   20    │   'EUI64-D0CF5EFFFE792A55'   │  '610087'  │   'present'    │   true    │                   'Desk Desk 8D3E'                   │ 'physicalOrChassis' │
+│   21    │   'EUI64-0080E10300052E5E'   │  '610087'  │    'shadow'    │   true    │                    '02 Area 3E4D'                    │ 'physicalOrChassis' │
+│   22    │   'EUI64-90FD9FFFFEA9505A'   │  '610087'  │    'shadow'    │   true    │                    '02 Area 3E4D'                    │ 'physicalOrChassis' │
+│   23    │   'EUI64-90FD9FFFFEA94E64'   │  '610087'  │    'shadow'    │   true    │                    '04 Area 4777'                    │ 'physicalOrChassis' │
+│   24    │   'EUI64-D0CF5EFFFE7B245E'   │  '329312'  │   'present'    │   true    │                'DESK2-5 PresenceMini'                │ 'physicalOrChassis' │
+│   25    │   'EUI64-D0CF5EFFFE793F47'   │  '329312'  │   'present'    │   true    │                'DESK1-3 PresenceMini'                │ 'physicalOrChassis' │
+│   26    │   'EUI64-D0CF5EFFFE7932E1'   │  '329312'  │    'shadow'    │   true    │                'DESK2-2 PresenceMini'                │ 'physicalOrChassis' │
+│   27    │   'EUI64-D0CF5EFFFE59E424'   │  '329312'  │   'present'    │   true    │                'DESK1-4 PresenceMini'                │ 'physicalOrChassis' │
+│   28    │   'EUI64-90FD9FFFFEA94D30'   │  '329312'  │   'present'    │   true    │                'DESK1-1 PresenceMini'                │ 'physicalOrChassis' │
+│   29    │   'EUI64-D0CF5EFFFE108BE7'   │  '329312'  │   'present'    │   true    │                'DESK2-1 PresenceMini'                │ 'physicalOrChassis' │
+│   30    │   'EUI64-D0CF5EFFFE7B25C0'   │  '329312'  │    'shadow'    │   true    │                'DESK1-5 PresenceMini'                │ 'physicalOrChassis' │
+│   31    │   'EUI64-90FD9FFFFEA95F3F'   │  '447224'  │   'present'    │   true    │                 'DESK3-5 Desk ED42'                  │ 'physicalOrChassis' │
+│   32    │   'EUI64-D0CF5EFFFE59F2EA'   │  '447224'  │   'present'    │   true    │                'DESK2-6 PresenceMini'                │ 'physicalOrChassis' │
+│   33    │   'EUI64-D0CF5EFFFE79286B'   │  '447224'  │   'present'    │   true    │                'DESK1-4 PresenceMini'                │ 'physicalOrChassis' │
+│   34    │   'EUI64-D0CF5EFFFE109180'   │  '447224'  │    'shadow'    │   true    │                'DESK3-4 PresenceMini'                │ 'physicalOrChassis' │
+│   35    │   'EUI64-90FD9FFFFEA95F1F'   │  '447224'  │   'present'    │   true    │                'DESK3-6 PresenceMini'                │ 'physicalOrChassis' │
+│   36    │   'EUI64-D0CF5EFFFE59CE50'   │  '447224'  │   'present'    │   true    │                'DESK2-5 PresenceMini'                │ 'physicalOrChassis' │
+│   37    │   'EUI64-90FD9FFFFEA77D84'   │  '447224'  │    'shadow'    │   true    │                'DESK1-6 PresenceMini'                │ 'physicalOrChassis' │
+│   38    │   'EUI64-D0CF5EFFFE7B29D5'   │  '305026'  │   'present'    │   true    │                'DESK-49-3 Desk F73A'                 │ 'physicalOrChassis' │
+│   39    │   'EUI64-D0CF5EFFFE69DF7F'   │  '305026'  │   'present'    │   true    │                'DESK-52-2 Desk 4D3B'                 │ 'physicalOrChassis' │
+│   40    │   'EUI64-D0CF5EFFFE792F57'   │  '305026'  │   'present'    │   true    │                    '05 - 文志伟'                     │ 'physicalOrChassis' │
+│   41    │   'EUI64-00124B0014C850ED'   │  '305026'  │   'present'    │   true    │ 'ROOM-2 Yanzi IoT Hybrid Mesh 868MHz\n        50ED'  │ 'physicalOrChassis' │
+│   42    │   'EUI64-D0CF5EFFFE59F2A2'   │  '305026'  │   'present'    │   true    │                    '21 - 马中科'                     │ 'physicalOrChassis' │
+│   43    │   'EUI64-90FD9FFFFEA9418B'   │  '305026'  │   'present'    │   true    │                'DESK-53-3 Desk AB9E'                 │ 'physicalOrChassis' │
+│   44    │   'EUI64-D0CF5EFFFE108D22'   │  '305026'  │   'present'    │   true    │                'DESK-51-1 Desk 5649'                 │ 'physicalOrChassis' │
+│   45    │   'EUI64-90FD9FFFFEA93D35'   │  '305026'  │   'present'    │   true    │                    '03 - 李亚亚'                     │ 'physicalOrChassis' │
+│   46    │   'EUI64-D0CF5EFFFE79352D'   │  '305026'  │   'present'    │   true    │                         '01'                         │ 'physicalOrChassis' │
+│   47    │   'EUI64-D0CF5EFFFE79340F'   │  '305026'  │   'present'    │   true    │                'DESK-53-4 Desk 51D4'                 │ 'physicalOrChassis' │
+│   48    │   'EUI64-D0CF5EFFFE108D17'   │  '305026'  │   'present'    │   true    │                         '20'                         │ 'physicalOrChassis' │
+│   49    │   'EUI64-90FD9FFFFEA77EA9'   │  '305026'  │   'present'    │   true    │                'DESK-51-5 Desk 6B7E'                 │ 'physicalOrChassis' │
+│   50    │   'EUI64-D0CF5EFFFE59CFD5'   │  '305026'  │   'present'    │   true    │                      'Desk49-1'                      │ 'physicalOrChassis' │
+│   51    │   'EUI64-90FD9FFFFEA7776A'   │  '305026'  │   'present'    │   true    │                         '18'                         │ 'physicalOrChassis' │
+│   52    │   'EUI64-90FD9FFFFEA7752B'   │  '305026'  │   'present'    │   true    │                'DESK-53-2 Desk 41FF'                 │ 'physicalOrChassis' │
+│   53    │   'EUI64-90FD9FFFFEA78180'   │  '305026'  │   'present'    │   true    │                'DESK-49-2 Desk E6F0'                 │ 'physicalOrChassis' │
+│   54    │   'EUI64-0080E10300053485'   │  '305026'  │   'present'    │   true    │                  'HCDH Floor 780C'                   │ 'physicalOrChassis' │
+│   55    │   'EUI64-D0CF5EFFFE7B2848'   │  '305026'  │   'present'    │   true    │                    '07 - 周刘军'                     │ 'physicalOrChassis' │
+│   56    │   'EUI64-90FD9FFFFEA96177'   │  '305026'  │   'present'    │   true    │                'DESK-52-3 Desk 0443'                 │ 'physicalOrChassis' │
+│   57    │   'EUI64-D0CF5EFFFE69E45B'   │  '305026'  │   'present'    │   true    │                     '25 - 杨成'                      │ 'physicalOrChassis' │
+│   58    │   'EUI64-D0CF5EFFFE59E445'   │  '305026'  │   'present'    │   true    │                'DESK-52-1 Desk F87C'                 │ 'physicalOrChassis' │
+│   59    │   'EUI64-90FD9FFFFEA77FF5'   │  '305026'  │   'present'    │   true    │                         '26'                         │ 'physicalOrChassis' │
+│   60    │   'EUI64-D0CF5EFFFE793209'   │  '305026'  │   'present'    │   true    │                         '30'                         │ 'physicalOrChassis' │
+│   61    │   'EUI64-90FD9FFFFEA77ED0'   │  '305026'  │   'present'    │   true    │                'DESK-51-3 Desk 36C9'                 │ 'physicalOrChassis' │
+│   62    │   'EUI64-90FD9FFFFEA7778D'   │  '305026'  │   'present'    │   true    │                         '27'                         │ 'physicalOrChassis' │
+│   63    │   'EUI64-D0CF5EFFFE79408F'   │  '305026'  │   'present'    │   true    │                'DESK-50-5 Desk C9A5'                 │ 'physicalOrChassis' │
+│   64    │   'EUI64-90FD9FFFFEA7819E'   │  '305026'  │   'present'    │   true    │                     '10 - 张正'                      │ 'physicalOrChassis' │
+│   65    │   'EUI64-D0CF5EFFFE7932A2'   │  '305026'  │   'present'    │   true    │                         '12'                         │ 'physicalOrChassis' │
+│   66    │   'EUI64-D0CF5EFFFE59F5E4'   │  '305026'  │   'present'    │   true    │                    '22 - 张文强'                     │ 'physicalOrChassis' │
+│   67    │   'EUI64-D0CF5EFFFE69DF8A'   │  '305026'  │   'present'    │   true    │                'DESK-50-4 Desk 8B09'                 │ 'physicalOrChassis' │
+│   68    │   'EUI64-90FD9FFFFEA93A0E'   │  '305026'  │   'present'    │   true    │                         '02'                         │ 'physicalOrChassis' │
+│   69    │   'EUI64-0080E10300037BE7'   │  '305026'  │    'shadow'    │   true    │                    '408 - 安卡拉'                    │ 'physicalOrChassis' │
+│   70    │   'EUI64-D0CF5EFFFE792820'   │  '305026'  │   'present'    │   true    │                     '08 - 陈凯'                      │ 'physicalOrChassis' │
+│   71    │   'EUI64-90FD9FFFFEA77214'   │  '305026'  │   'present'    │   true    │                         '28'                         │ 'physicalOrChassis' │
+│   72    │   'EUI64-90FD9FFFFEA95CB5'   │  '305026'  │   'present'    │   true    │                'DESK-50-2 Desk 90B8'                 │ 'physicalOrChassis' │
+│   73    │   'EUI64-90FD9FFFFEA95C04'   │  '305026'  │   'present'    │   true    │                         '34'                         │ 'physicalOrChassis' │
+│   74    │   'EUI64-D0CF5EFFFE109709'   │  '305026'  │   'present'    │   true    │                         '32'                         │ 'physicalOrChassis' │
+│   75    │   'EUI64-D0CF5EFFFE793A1A'   │  '305026'  │   'present'    │   true    │                'DESK-49-5 Desk F99E'                 │ 'physicalOrChassis' │
+│   76    │   'EUI64-90FD9FFFFEA93D8F'   │  '305026'  │   'present'    │   true    │                         '11'                         │ 'physicalOrChassis' │
+│   77    │   'EUI64-D0CF5EFFFE59CF96'   │  '305026'  │   'present'    │   true    │                         '29'                         │ 'physicalOrChassis' │
+│   78    │   'EUI64-90FD9FFFFEA7722C'   │  '305026'  │   'present'    │   true    │                'DESK-50-3 Desk ECB7'                 │ 'physicalOrChassis' │
+│   79    │   'EUI64-D0CF5EFFFE59CDE0'   │  '305026'  │   'present'    │   true    │                         '35'                         │ 'physicalOrChassis' │
+│   80    │   'EUI64-90FD9FFFFEA94CD6'   │  '305026'  │   'present'    │   true    │                'DESK-53-5 Desk B87B'                 │ 'physicalOrChassis' │
+│   81    │   'EUI64-D0CF5EFFFE79347D'   │  '305026'  │   'present'    │   true    │                'DESK-52-5 Desk 0D06'                 │ 'physicalOrChassis' │
+│   82    │   'EUI64-D0CF5EFFFE69E2CA'   │  '305026'  │   'present'    │   true    │                'DESK-51-2 Desk 5EE9'                 │ 'physicalOrChassis' │
+│   83    │   'EUI64-D0CF5EFFFE7B23AE'   │  '305026'  │   'present'    │   true    │                         '04'                         │ 'physicalOrChassis' │
+│   84    │   'EUI64-D0CF5EFFFE59E660'   │  '305026'  │   'present'    │   true    │                'DESK-53-1 Desk 4EBA'                 │ 'physicalOrChassis' │
+│   85    │   'EUI64-D0CF5EFFFE7928D5'   │  '305026'  │   'present'    │   true    │                    '13 - 钱向阳'                     │ 'physicalOrChassis' │
+│   86    │   'EUI64-90FD9FFFFEA95E71'   │  '305026'  │   'present'    │   true    │                    '09 - 刘若尘'                     │ 'physicalOrChassis' │
+│   87    │   'EUI64-90FD9FFFFEA9557C'   │  '305026'  │   'present'    │   true    │                'DESK-49-4 Desk 4987'                 │ 'physicalOrChassis' │
+│   88    │   'EUI64-D0CF5EFFFE59E04E'   │  '305026'  │   'present'    │   true    │                'DESK-51-4 Desk 0416'                 │ 'physicalOrChassis' │
+│   89    │   'EUI64-0080E10300044FB9'   │  '305026'  │   'present'    │   true    │                 'ROOM-2-7 Area C814'                 │ 'physicalOrChassis' │
+│   90    │   'EUI64-D0CF5EFFFE7928F9'   │  '305026'  │   'present'    │   true    │                         '19'                         │ 'physicalOrChassis' │
+│   91    │   'EUI64-90FD9FFFFEA95BDA'   │  '305026'  │   'present'    │   true    │                    '06 - 杨志杰'                     │ 'physicalOrChassis' │
+│   92    │   'EUI64-90FD9FFFFEA77265'   │  '305026'  │   'present'    │   true    │                     'DESK-50-1'                      │ 'physicalOrChassis' │
+│   93    │   'EUI64-90FD9FFFFEA94946'   │  '305026'  │   'present'    │   true    │                     '15 - 关禄'                      │ 'physicalOrChassis' │
+│   94    │   'EUI64-90FD9FFFFEA95B36'   │  '305026'  │   'present'    │   true    │                         '31'                         │ 'physicalOrChassis' │
+│   95    │   'EUI64-D0CF5EFFFE59CF85'   │  '305026'  │   'present'    │   true    │                    '24 - 董国鹏'                     │ 'physicalOrChassis' │
+│   96    │   'EUI64-D0CF5EFFFE59CDDC'   │  '305026'  │   'present'    │   true    │                     '17 - 邵帅'                      │ 'physicalOrChassis' │
+│   97    │   'EUI64-D0CF5EFFFE79396E'   │  '305026'  │   'present'    │   true    │                    '14 - 田庆安'                     │ 'physicalOrChassis' │
+│   98    │   'EUI64-90FD9FFFFEA78014'   │  '305026'  │   'present'    │   true    │                    '16 - 郭启星'                     │ 'physicalOrChassis' │
+│   99    │   'EUI64-90FD9FFFFEA95C6B'   │  '305026'  │   'present'    │   true    │                         '33'                         │ 'physicalOrChassis' │
+│   100   │   'EUI64-90FD9FFFFEA77B7E'   │  '305026'  │   'present'    │   true    │                'DESK-52-4 Desk 2CEF'                 │ 'physicalOrChassis' │
+│   101   │   'EUI64-90FD9FFFFEA95D93'   │  '305026'  │   'present'    │   true    │                     '23 - 杨彬'                      │ 'physicalOrChassis' │
+│   102   │   'EUI64-0080E10300037E57'   │  '221376'  │    'shadow'    │   true    │                 'DESK1-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   103   │   'EUI64-0080E1030004352C'   │  '221376'  │   'present'    │   true    │                 'DESK1-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   104   │   'EUI64-0080E1030002896C'   │  '221376'  │   'present'    │   true    │                  'ROOM2-1 Comfort'                   │ 'physicalOrChassis' │
+│   105   │   'EUI64-0080E103000445DF'   │  '274189'  │   'present'    │   true    │                     '5楼风云会'                      │ 'physicalOrChassis' │
+│   106   │   'EUI64-0080E10300037AA0'   │  '274189'  │   'present'    │   true    │                        'M901'                        │ 'physicalOrChassis' │
+│   107   │   'EUI64-0080E10300043DCC'   │  '274189'  │   'present'    │   true    │                     '5楼讲武堂'                      │ 'physicalOrChassis' │
+│   108   │   'EUI64-0080E10300037812'   │  '274189'  │   'present'    │   true    │                        'M111'                        │ 'physicalOrChassis' │
+│   109   │   'EUI64-0080E103000431DA'   │  '274189'  │   'present'    │   true    │                        'M903'                        │ 'physicalOrChassis' │
+│   110   │   'EUI64-0080E103000378BD'   │  '274189'  │   'present'    │   true    │                        'M603'                        │ 'physicalOrChassis' │
+│   111   │   'EUI64-0080E10300037AE1'   │  '274189'  │   'present'    │   true    │                        'M102'                        │ 'physicalOrChassis' │
+│   112   │   'EUI64-0080E10300037916'   │  '274189'  │   'present'    │   true    │                     '5楼观澜室'                      │ 'physicalOrChassis' │
+│   113   │   'EUI64-0080E10300037807'   │  '274189'  │   'present'    │   true    │                        'M902'                        │ 'physicalOrChassis' │
+│   114   │   'EUI64-0080E103000247DD'   │  '274189'  │   'present'    │   true    │                     '五楼钱塘轩'                     │ 'physicalOrChassis' │
+│   115   │   'EUI64-0080E10300037B4D'   │  '274189'  │   'present'    │   true    │                        'M701'                        │ 'physicalOrChassis' │
+│   116   │   'EUI64-0080E10300044C33'   │  '274189'  │   'present'    │   true    │                     '5楼圣奥会'                      │ 'physicalOrChassis' │
+│   117   │   'EUI64-0080E103000431C6'   │  '274189'  │   'present'    │   true    │                     '5楼讲武堂'                      │ 'physicalOrChassis' │
+│   118   │   'EUI64-0080E103000378F1'   │  '274189'  │   'present'    │   true    │                        'M103'                        │ 'physicalOrChassis' │
+│   119   │   'EUI64-0080E10300037748'   │  '274189'  │   'present'    │   true    │                 'DESK2-4 MotionPlus'                 │ 'physicalOrChassis' │
+│   120   │   'EUI64-0080E10300043F26'   │  '274189'  │   'present'    │   true    │                     '5楼-西子岸'                     │ 'physicalOrChassis' │
+│   121   │   'EUI64-0080E10300044D80'   │  '274189'  │   'present'    │   true    │                        'M602'                        │ 'physicalOrChassis' │
+│   122   │   'EUI64-0080E10300054844'   │  '274189'  │   'present'    │   true    │                     '5楼圣奥会'                      │ 'physicalOrChassis' │
+│   123   │   'EUI64-0080E10300044BF4'   │  '274189'  │   'present'    │   true    │                     '5楼讲武堂'                      │ 'physicalOrChassis' │
+│   124   │   'EUI64-0080E1030003765B'   │  '274189'  │   'present'    │   true    │                        'M603'                        │ 'physicalOrChassis' │
+│   125   │   'EUI64-0080E1030003765F'   │  '274189'  │   'present'    │   true    │                     '5楼江南社'                      │ 'physicalOrChassis' │
+│   126   │   'EUI64-0080E103000435D7'   │  '274189'  │   'present'    │   true    │                        'M103'                        │ 'physicalOrChassis' │
+│   127   │   'EUI64-0080E10300037E3D'   │  '274189'  │   'present'    │   true    │                     '5楼听涛厅'                      │ 'physicalOrChassis' │
+│   128   │   'EUI64-0080E10300044A9F'   │  '274189'  │   'present'    │   true    │                        'M101'                        │ 'physicalOrChassis' │
+│   129   │   'EUI64-0080E10300037793'   │  '274189'  │   'present'    │   true    │                        'M801'                        │ 'physicalOrChassis' │
+│   130   │   'EUI64-0080E10300037A9B'   │  '274189'  │   'present'    │   true    │                        'M702'                        │ 'physicalOrChassis' │
+│   131   │   'EUI64-0080E10300037643'   │  '274189'  │   'present'    │   true    │                     '5楼讲武堂'                      │ 'physicalOrChassis' │
+│   132   │   'EUI64-0080E10300037FD5'   │  '274189'  │   'present'    │   true    │                     '5楼园丁坊'                      │ 'physicalOrChassis' │
+│   133   │   'EUI64-0080E10300043EB7'   │  '274189'  │   'present'    │   true    │                        'M112'                        │ 'physicalOrChassis' │
+│   134   │   'EUI64-0080E10300043528'   │  '274189'  │   'present'    │   true    │                        'M113'                        │ 'physicalOrChassis' │
+│   135   │   'EUI64-0080E1030003776F'   │  '274189'  │   'present'    │   true    │                        'M601'                        │ 'physicalOrChassis' │
+│   136   │   'EUI64-D0CF5EFFFE7928EA'   │  '507828'  │   'present'    │   true    │                'DESK2-3 PresenceMini'                │ 'physicalOrChassis' │
+│   137   │   'EUI64-D0CF5EFFFE793034'   │  '507828'  │   'present'    │   true    │                'DESK1-4 PresenceMini'                │ 'physicalOrChassis' │
+│   138   │   'EUI64-D0CF5EFFFE792FFA'   │  '507828'  │   'present'    │   true    │                'DESK1-3 PresenceMini'                │ 'physicalOrChassis' │
+│   139   │   'EUI64-90FD9FFFFEA95240'   │  '897737'  │   'present'    │   true    │                         '2#'                         │ 'physicalOrChassis' │
+│   140   │   'EUI64-0080E10300053E78'   │  '897737'  │   'present'    │   true    │                 'Typewriter Comfort'                 │ 'physicalOrChassis' │
+│   141   │   'EUI64-D0CF5EFFFE79374E'   │  '897737'  │   'present'    │   true    │                 'Desk PresenceMini'                  │ 'physicalOrChassis' │
+│   142   │   'EUI64-D0CF5EFFFE7931A9'   │  '897737'  │   'present'    │   true    │                 'Desk PresenceMini'                  │ 'physicalOrChassis' │
+│   143   │   'EUI64-0080E1030005E363'   │  '897737'  │   'present'    │   true    │                    '001 Comfort'                     │ 'physicalOrChassis' │
+│   144   │   'EUI64-0080E10300053665'   │  '897737'  │   'present'    │   true    │                   '019 MotionPlus'                   │ 'physicalOrChassis' │
+│   145   │   'EUI64-90FD9FFFFEA95065'   │  '897737'  │    'shadow'    │   true    │                 'Desk PresenceMini'                  │ 'physicalOrChassis' │
+│   146   │   'EUI64-0080E1030005473B'   │  '897737'  │   'present'    │   true    │                   '024 MotionPlus'                   │ 'physicalOrChassis' │
+│   147   │   'EUI64-0080E103000442E5'   │  '545672'  │   'present'    │   true    │                 'ROOM2-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   148   │   'EUI64-0080E1030003806A'   │  '545672'  │   'present'    │   true    │                 'ROOM1-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   149   │   'EUI64-0080E10300037A55'   │  '545672'  │   'present'    │   true    │                 'ROOM3-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   150   │   'EUI64-0080E10300037B16'   │  '545672'  │   'present'    │   true    │                 'ROOM1-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   151   │   'EUI64-0080E103000539A1'   │  '545672'  │   'present'    │   true    │                  'ROOM1-2 Comfort'                   │ 'physicalOrChassis' │
+│   152   │   'EUI64-90FD9FFFFEA9591C'   │  '83561'   │   'present'    │   true    │                'DESK4-1 PresenceMini'                │ 'physicalOrChassis' │
+│   153   │   'EUI64-D0CF5EFFFE59D034'   │  '83561'   │   'present'    │   true    │                'DESK6-1 PresenceMini'                │ 'physicalOrChassis' │
+│   154   │   'EUI64-D0CF5EFFFE793A86'   │  '83561'   │   'present'    │   true    │                'DESK8-1 PresenceMini'                │ 'physicalOrChassis' │
+│   155   │   'EUI64-D0CF5EFFFE59CDEE'   │  '83561'   │   'present'    │   true    │                'DESK3-1 PresenceMini'                │ 'physicalOrChassis' │
+│   156   │   'EUI64-90FD9FFFFEA960E9'   │  '83561'   │   'present'    │   true    │                'DESK5-1 PresenceMini'                │ 'physicalOrChassis' │
+│   157   │   'EUI64-D0CF5EFFFE59CDD2'   │  '83561'   │   'present'    │   true    │                'DESK7-1 PresenceMini'                │ 'physicalOrChassis' │
+│   158   │   'EUI64-00124B0018F05945'   │  '83561'   │   'present'    │   true    │                        '女厕'                        │ 'physicalOrChassis' │
+│   159   │   'EUI64-90FD9FFFFEA78012'   │  '83561'   │   'present'    │   true    │                'DESK2-1 PresenceMini'                │ 'physicalOrChassis' │
+│   160   │   'EUI64-D0CF5EFFFE69E34D'   │  '83561'   │   'present'    │   true    │                'DESK1-1 PresenceMini'                │ 'physicalOrChassis' │
+│   161   │   'EUI64-D0CF5EFFFE59D232'   │  '668617'  │   'present'    │   true    │                'DESK3-5 PresenceMini'                │ 'physicalOrChassis' │
+│   162   │   'EUI64-90FD9FFFFEA94ECE'   │  '668617'  │   'present'    │   true    │                'DESK4-2 PresenceMini'                │ 'physicalOrChassis' │
+│   163   │   'EUI64-90FD9FFFFEA957EB'   │  '668617'  │   'present'    │   true    │                'DESK4-5 PresenceMini'                │ 'physicalOrChassis' │
+│   164   │   'EUI64-D0CF5EFFFE59CDEF'   │  '668617'  │   'present'    │   true    │                'DESK3-2 PresenceMini'                │ 'physicalOrChassis' │
+│   165   │   'EUI64-D0CF5EFFFE793E56'   │  '668617'  │   'present'    │   true    │                'DESK4-4 PresenceMini'                │ 'physicalOrChassis' │
+│   166   │   'EUI64-00124B0018F05BCE'   │  '668617'  │   'present'    │   true    │                        '女厕'                        │ 'physicalOrChassis' │
+│   167   │   'EUI64-90FD9FFFFEA782D2'   │  '668617'  │   'present'    │   true    │                'DESK3-3 PresenceMini'                │ 'physicalOrChassis' │
+│   168   │   'EUI64-D0CF5EFFFE108D61'   │  '668617'  │   'present'    │   true    │                'DESK4-3 PresenceMini'                │ 'physicalOrChassis' │
+│   169   │   'EUI64-00124B0018F050C2'   │  '668617'  │    'shadow'    │   true    │                 'ROOM4-4 Area 1B0C'                  │ 'physicalOrChassis' │
+│   170   │   'EUI64-0080E10300043DE9'   │  '108899'  │   'present'    │   true    │                  'Area MotionPlus'                   │ 'physicalOrChassis' │
+│   171   │   'EUI64-0080E103000534EB'   │  '108899'  │    'shadow'    │   true    │                    'Area Comfort'                    │ 'physicalOrChassis' │
+│   172   │   'EUI64-0080E103000436A8'   │  '108899'  │   'present'    │   true    │                  'Area MotionPlus'                   │ 'physicalOrChassis' │
+│   173   │   'EUI64-D0CF5EFFFE1094AE'   │  '185308'  │   'present'    │   true    │                 'DESK7-3 Desk 7EB3'                  │ 'physicalOrChassis' │
+│   174   │   'EUI64-D0CF5EFFFE59E663'   │  '185308'  │   'present'    │   true    │                 'DESK3-3 Desk 7B92'                  │ 'physicalOrChassis' │
+│   175   │   'EUI64-D0CF5EFFFE59F5CA'   │  '185308'  │   'present'    │   true    │                 'DESK1-3 Desk C96D'                  │ 'physicalOrChassis' │
+│   176   │   'EUI64-D0CF5EFFFE793F60'   │  '185308'  │   'present'    │   true    │                 'DESK5-3 Desk A3E9'                  │ 'physicalOrChassis' │
+│   177   │   'EUI64-90FD9FFFFEA950E9'   │  '185308'  │   'present'    │   true    │                 'DESK9-3 Desk 0108'                  │ 'physicalOrChassis' │
+│   178   │   'EUI64-0080E1030003773B'   │  '254896'  │    'shadow'    │   true    │                 'ROOM4-1 Area 99AD'                  │ 'physicalOrChassis' │
+│   179   │   'EUI64-90FD9FFFFEA77D54'   │  '254896'  │    'shadow'    │   true    │                 'DESK3-1 Desk EB9F'                  │ 'physicalOrChassis' │
+│   180   │   'EUI64-0080E10300044C4B'   │  '254896'  │   'present'    │   true    │                 'ROOM1-2 Area 60D5'                  │ 'physicalOrChassis' │
+│   181   │   'EUI64-D0CF5EFFFE7B29E4'   │  '254896'  │    'shadow'    │   true    │                 'DESK2-2 Desk 391A'                  │ 'physicalOrChassis' │
+│   182   │   'EUI64-90FD9FFFFEA93F4D'   │  '254896'  │    'shadow'    │   true    │                 'DESK1-1 Desk 7ADF'                  │ 'physicalOrChassis' │
+│   183   │   'EUI64-D0CF5EFFFE792C1F'   │  '254896'  │    'shadow'    │   true    │                 'DESK2-1 Desk 356E'                  │ 'physicalOrChassis' │
+│   184   │   'EUI64-0080E10300037E57'   │  '254896'  │   'present'    │   true    │                 'ROOM3-2 Area A8A6'                  │ 'physicalOrChassis' │
+│   185   │   'EUI64-0080E10300043A12'   │  '254896'  │   'present'    │   true    │                 'ROOM5-1 Area 71F4'                  │ 'physicalOrChassis' │
+│   186   │   'EUI64-0080E10300037C21'   │  '254896'  │   'present'    │   true    │                 'ROOM3-1 Area 0C98'                  │ 'physicalOrChassis' │
+│   187   │   'EUI64-D0CF5EFFFE793F51'   │  '254896'  │    'shadow'    │   true    │                 'DESK1-2 Desk E423'                  │ 'physicalOrChassis' │
+│   188   │   'EUI64-D0CF5EFFFE59D03A'   │  '521209'  │   'present'    │   true    │                'DESK2-2 PresenceMini'                │ 'physicalOrChassis' │
+│   189   │   'EUI64-90FD9FFFFEA93980'   │  '521209'  │    'shadow'    │   true    │                'DESK4-1 PresenceMini'                │ 'physicalOrChassis' │
+│   190   │   'EUI64-90FD9FFFFEA95529'   │  '521209'  │   'present'    │   true    │                'DESK3-1 PresenceMini'                │ 'physicalOrChassis' │
+│   191   │   'EUI64-D0CF5EFFFE793BD3'   │  '521209'  │   'present'    │   true    │                'DESK1-3 PresenceMini'                │ 'physicalOrChassis' │
+│   192   │   'EUI64-D0CF5EFFFE793DE6'   │  '521209'  │    'shadow'    │   true    │                'DESK3-2 PresenceMini'                │ 'physicalOrChassis' │
+│   193   │   'EUI64-D0CF5EFFFE792EB7'   │  '521209'  │   'present'    │   true    │                'DESK4-2 PresenceMini'                │ 'physicalOrChassis' │
+│   194   │   'EUI64-D0CF5EFFFE792A9A'   │  '521209'  │    'shadow'    │   true    │                                                      │ 'physicalOrChassis' │
+│   195   │   'EUI64-90FD9FFFFEA782E0'   │  '521209'  │   'present'    │   true    │                'DESK2-4 PresenceMini'                │ 'physicalOrChassis' │
+│   196   │   'EUI64-D0CF5EFFFE7B27AF'   │  '521209'  │   'present'    │   true    │                'DESK1-1 PresenceMini'                │ 'physicalOrChassis' │
+│   197   │   'EUI64-90FD9FFFFEA938C6'   │  '521209'  │   'present'    │   true    │                'DESK1-2 PresenceMini'                │ 'physicalOrChassis' │
+│   198   │   'EUI64-90FD9FFFFEA77AB8'   │  '521209'  │   'present'    │   true    │                'DESK1-4 PresenceMini'                │ 'physicalOrChassis' │
+│   199   │   'EUI64-0080E10300024790'   │  '521209'  │   'present'    │   true    │                 'ROOM4-1 MotionPlus'                 │ 'physicalOrChassis' │
+│   200   │   'EUI64-D0CF5EFFFE59E016'   │  '521209'  │   'present'    │   true    │                'DESK2-3 PresenceMini'                │ 'physicalOrChassis' │
+│   201   │   'EUI64-0080E10300029A4B'   │  '434888'  │   'present'    │   true    │                 'DESK2-1 Desk 087B'                  │ 'physicalOrChassis' │
+│   202   │   'EUI64-0080E10300024783'   │  '434888'  │   'present'    │   true    │                 'DESK9-1 Desk E0F7'                  │ 'physicalOrChassis' │
+│   203   │   'EUI64-0080E10300037627'   │  '434888'  │   'present'    │   true    │                 'DESK10-1 Desk 2693'                 │ 'physicalOrChassis' │
+│   204   │   'EUI64-0080E10300043DB3'   │  '434888'  │   'present'    │   true    │                 'DESK8-1 Desk A6AF'                  │ 'physicalOrChassis' │
+│   205   │   'EUI64-0080E10300028B88'   │  '434888'  │   'present'    │   true    │                 'DESK4-1 Desk 8EDE'                  │ 'physicalOrChassis' │
+│   206   │   'EUI64-0080E103000375EF'   │  '434888'  │   'present'    │   true    │                 'DESK3-1 Desk 0432'                  │ 'physicalOrChassis' │
+│   207   │   'EUI64-0080E10300037DC9'   │  '434888'  │   'present'    │   true    │                 'DESK5-1 Desk 8768'                  │ 'physicalOrChassis' │
+│   208   │   'EUI64-0080E10300037EED'   │  '434888'  │   'present'    │   true    │                 'DESK9-2 Desk 4E84'                  │ 'physicalOrChassis' │
+│   209   │   'EUI64-0080E103000379F2'   │  '434888'  │   'present'    │   true    │                 'DESK7-1 Desk 42ED'                  │ 'physicalOrChassis' │
+│   210   │   'EUI64-0080E10300037BD7'   │  '434888'  │   'present'    │   true    │                 'DESK1-1 Desk EA0B'                  │ 'physicalOrChassis' │
+│   211   │   'EUI64-0080E10300043527'   │  '434888'  │   'present'    │   true    │                 'DESK6-1 Desk E793'                  │ 'physicalOrChassis' │
+│   212   │   'EUI64-D0CF5EFFFE7B293D'   │  '783825'  │   'present'    │   true    │              'Desk11F051 PresenceMini'               │ 'physicalOrChassis' │
+│   213   │   'EUI64-00124B0018F05BE2'   │  '783825'  │   'present'    │   true    │                   'Sugarcube Bump'                   │ 'physicalOrChassis' │
+│   214   │   'EUI64-90FD9FFFFEA780BC'   │  '783825'  │   'present'    │   true    │              'Desk11F011 PresenceMini'               │ 'physicalOrChassis' │
+│   215   │   'EUI64-D0CF5EFFFE59E366'   │  '783825'  │   'present'    │   true    │              'Desk11F024 PresenceMini'               │ 'physicalOrChassis' │
+│   216   │   'EUI64-D0CF5EFFFE793F23'   │  '783825'  │   'present'    │   true    │              'Desk11F021 PresenceMini'               │ 'physicalOrChassis' │
+│   217   │   'EUI64-D0CF5EFFFE7B2939'   │  '783825'  │   'present'    │   true    │              'Desk11F006 PresenceMini'               │ 'physicalOrChassis' │
+│   218   │   'EUI64-90FD9FFFFEA78279'   │  '783825'  │   'present'    │   true    │              'Desk11F047 PresenceMini'               │ 'physicalOrChassis' │
+│   219   │   'EUI64-D0CF5EFFFE793765'   │  '783825'  │   'present'    │   true    │              'Desk11F034 PresenceMini'               │ 'physicalOrChassis' │
+│   220   │   'EUI64-90FD9FFFFEA787A8'   │  '783825'  │   'present'    │   true    │              'Desk11F044 PresenceMini'               │ 'physicalOrChassis' │
+│   221   │   'EUI64-90FD9FFFFEA788D6'   │  '783825'  │   'present'    │   true    │              'Desk11F039 PresenceMini'               │ 'physicalOrChassis' │
+│   222   │   'EUI64-0080E10300043E89'   │  '783825'  │   'present'    │   true    │                 '11F023 MotionPlus'                  │ 'physicalOrChassis' │
+│   223   │   'EUI64-D0CF5EFFFE793772'   │  '783825'  │   'present'    │   true    │              'Desk11F028 PresenceMini'               │ 'physicalOrChassis' │
+│   224   │   'EUI64-D0CF5EFFFE7B2951'   │  '783825'  │   'present'    │   true    │              'Desk11F005 PresenceMini'               │ 'physicalOrChassis' │
+│   225   │   'EUI64-D0CF5EFFFE59CF38'   │  '783825'  │   'present'    │   true    │              'Desk11F031 PresenceMini'               │ 'physicalOrChassis' │
+│   226   │   'EUI64-90FD9FFFFEA950EA'   │  '783825'  │   'present'    │   true    │              'Desk11F008 PresenceMini'               │ 'physicalOrChassis' │
+│   227   │   'EUI64-00124B0018F052FF'   │  '783825'  │   'present'    │   true    │                   'Sugarcube Bump'                   │ 'physicalOrChassis' │
+│   228   │   'EUI64-00124B0018F05C7B'   │  '783825'  │   'present'    │   true    │                   'Sugarcube Bump'                   │ 'physicalOrChassis' │
+│   229   │ 'EUI64-00124B0018F05C7B-nbr' │  '783825'  │    'shadow'    │   true    │                                                      │ 'physicalOrChassis' │
+│   230   │   'EUI64-D0CF5EFFFE59E44C'   │  '783825'  │   'present'    │   true    │              'Desk11F037 PresenceMini'               │ 'physicalOrChassis' │
+│   231   │   'EUI64-D0CF5EFFFE59E3BC'   │  '783825'  │   'present'    │   true    │              'Desk11F040 PresenceMini'               │ 'physicalOrChassis' │
+│   232   │   'EUI64-D0CF5EFFFE59E681'   │  '783825'  │   'present'    │   true    │              'Desk11F046 PresenceMini'               │ 'physicalOrChassis' │
+│   233   │   'EUI64-D0CF5EFFFE59E680'   │  '783825'  │   'present'    │   true    │              'Desk11F004 PresenceMini'               │ 'physicalOrChassis' │
+│   234   │   'EUI64-90FD9FFFFEA93907'   │  '783825'  │    'shadow'    │   true    │              'Desk11F051 PresenceMini'               │ 'physicalOrChassis' │
+│   235   │   'EUI64-D0CF5EFFFE59E3B2'   │  '783825'  │   'present'    │   true    │              'Desk11F003 PresenceMini'               │ 'physicalOrChassis' │
+│   236   │   'EUI64-D0CF5EFFFE59D229'   │  '783825'  │   'present'    │   true    │              'Desk11F049 PresenceMini'               │ 'physicalOrChassis' │
+│   237   │   'EUI64-90FD9FFFFEA94D20'   │  '783825'  │   'present'    │   true    │              'Desk11F055 PresenceMini'               │ 'physicalOrChassis' │
+│   238   │   'EUI64-0080E10300037BCF'   │  '783825'  │   'present'    │   true    │                 '11F001 MotionPlus'                  │ 'physicalOrChassis' │
+│   239   │   'EUI64-D0CF5EFFFE59F676'   │  '783825'  │   'present'    │   true    │              'Desk11F026 PresenceMini'               │ 'physicalOrChassis' │
+│   240   │   'EUI64-D0CF5EFFFE79344F'   │  '783825'  │   'present'    │   true    │              'Desk11F053 PresenceMini'               │ 'physicalOrChassis' │
+│   241   │   'EUI64-90FD9FFFFEA77EF5'   │  '783825'  │    'shadow'    │   true    │              'Desk11F009 PresenceMini'               │ 'physicalOrChassis' │
+│   242   │   'EUI64-90FD9FFFFEA7756C'   │  '783825'  │   'present'    │   true    │              'Desk11F054 PresenceMini'               │ 'physicalOrChassis' │
+│   243   │   'EUI64-90FD9FFFFEA7877E'   │  '783825'  │    'shadow'    │   true    │              'Desk11F050 PresenceMini'               │ 'physicalOrChassis' │
+│   244   │   'EUI64-00124B0018ED2E10'   │  '783825'  │    'shadow'    │   true    │                   'Sugarcube Bump'                   │ 'physicalOrChassis' │
+│   245   │   'EUI64-0080E10300037613'   │  '783825'  │   'present'    │   true    │                 '11F022 MotionPlus'                  │ 'physicalOrChassis' │
+│   246   │   'EUI64-D0CF5EFFFE793C49'   │  '783825'  │   'present'    │   true    │              'Desk11F014 PresenceMini'               │ 'physicalOrChassis' │
+│   247   │   'EUI64-D0CF5EFFFE59F618'   │  '783825'  │    'shadow'    │   true    │              'Desk11F017 PresenceMini'               │ 'physicalOrChassis' │
+│   248   │   'EUI64-D0CF5EFFFE793C41'   │  '783825'  │   'present'    │   true    │              'Desk11F010 PresenceMini'               │ 'physicalOrChassis' │
+│   249   │   'EUI64-D0CF5EFFFE7B25DE'   │  '783825'  │   'present'    │   true    │              'Desk11F041 PresenceMini'               │ 'physicalOrChassis' │
+│   250   │   'EUI64-D0CF5EFFFE59F5B6'   │  '783825'  │   'present'    │   true    │              'Desk11F025 PresenceMini'               │ 'physicalOrChassis' │
+│   251   │   'EUI64-D0CF5EFFFE793255'   │  '783825'  │   'present'    │   true    │              'Desk11F027 PresenceMini'               │ 'physicalOrChassis' │
+│   252   │   'EUI64-D0CF5EFFFE7930A7'   │  '783825'  │   'present'    │   true    │              'Desk11F042 PresenceMini'               │ 'physicalOrChassis' │
+│   253   │   'EUI64-D0CF5EFFFE59EFEF'   │  '783825'  │   'present'    │   true    │              'Desk11F030 PresenceMini'               │ 'physicalOrChassis' │
+│   254   │   'EUI64-90FD9FFFFEA783D6'   │  '783825'  │   'present'    │   true    │              'Desk11F019 PresenceMini'               │ 'physicalOrChassis' │
+│   255   │   'EUI64-90FD9FFFFEA95DE8'   │  '783825'  │   'present'    │   true    │              'Desk11F043 PresenceMini'               │ 'physicalOrChassis' │
+│   256   │   'EUI64-D0CF5EFFFE7B24DF'   │  '783825'  │   'present'    │   true    │              'Desk11F045 PresenceMini'               │ 'physicalOrChassis' │
+│   257   │   'EUI64-90FD9FFFFEA9569A'   │  '783825'  │    'shadow'    │   true    │              'Desk11F053 PresenceMini'               │ 'physicalOrChassis' │
+│   258   │   'EUI64-D0CF5EFFFE7B2611'   │  '783825'  │   'present'    │   true    │              'Desk11F015 PresenceMini'               │ 'physicalOrChassis' │
+│   259   │   'EUI64-D0CF5EFFFE79326E'   │  '783825'  │   'present'    │   true    │              'Desk11F048 PresenceMini'               │ 'physicalOrChassis' │
+│   260   │   'EUI64-D0CF5EFFFE793283'   │  '783825'  │   'present'    │   true    │              'Desk11F035 PresenceMini'               │ 'physicalOrChassis' │
+│   261   │   'EUI64-D0CF5EFFFE793288'   │  '783825'  │   'present'    │   true    │              'Desk11F036 PresenceMini'               │ 'physicalOrChassis' │
+│   262   │   'EUI64-D0CF5EFFFE59CFE9'   │  '783825'  │    'shadow'    │   true    │              'Desk11F041 PresenceMini'               │ 'physicalOrChassis' │
+│   263   │   'EUI64-D0CF5EFFFE79298A'   │  '783825'  │   'present'    │   true    │              'Desk11F009 PresenceMini'               │ 'physicalOrChassis' │
+│   264   │   'EUI64-D0CF5EFFFE793732'   │  '783825'  │    'shadow'    │   true    │              'Desk11F052 PresenceMini'               │ 'physicalOrChassis' │
+│   265   │   'EUI64-D0CF5EFFFE59E6C7'   │  '783825'  │   'present'    │   true    │              'Desk11F018 PresenceMini'               │ 'physicalOrChassis' │
+│   266   │   'EUI64-D0CF5EFFFE59E74E'   │  '783825'  │   'present'    │   true    │              'Desk11F012 PresenceMini'               │ 'physicalOrChassis' │
+│   267   │   'EUI64-90FD9FFFFEA788A0'   │  '783825'  │   'present'    │   true    │              'Desk11F038 PresenceMini'               │ 'physicalOrChassis' │
+│   268   │   'EUI64-D0CF5EFFFE59E6BA'   │  '783825'  │   'present'    │   true    │              'Desk11F016 PresenceMini'               │ 'physicalOrChassis' │
+│   269   │   'EUI64-D0CF5EFFFE793748'   │  '783825'  │   'present'    │   true    │              'Desk11F029 PresenceMini'               │ 'physicalOrChassis' │
+│   270   │   'EUI64-90FD9FFFFEA782EE'   │  '783825'  │   'present'    │   true    │              'Desk11F002 PresenceMini'               │ 'physicalOrChassis' │
+│   271   │   'EUI64-D0CF5EFFFE7B2403'   │  '783825'  │   'present'    │   true    │              'Desk11F007 PresenceMini'               │ 'physicalOrChassis' │
+│   272   │   'EUI64-D0CF5EFFFE59E177'   │  '783825'  │    'shadow'    │   true    │              'Desk11F015 PresenceMini'               │ 'physicalOrChassis' │
+│   273   │   'EUI64-D0CF5EFFFE793739'   │  '783825'  │   'present'    │   true    │              'Desk11F033 PresenceMini'               │ 'physicalOrChassis' │
+│   274   │   'EUI64-D0CF5EFFFE7B2409'   │  '783825'  │   'present'    │   true    │              'Desk11F056 PresenceMini'               │ 'physicalOrChassis' │
+│   275   │   'EUI64-D0CF5EFFFE69E14E'   │  '783825'  │   'present'    │   true    │              'Desk11F020 PresenceMini'               │ 'physicalOrChassis' │
+│   276   │   'EUI64-0080E10300043221'   │  '732449'  │   'present'    │   true    │                'room1-2 Motion+ 3221'                │ 'physicalOrChassis' │
+│   277   │   'EUI64-0080E10300037A00'   │  '732449'  │   'present'    │   true    │                'room2-1 Motion+ 7A00'                │ 'physicalOrChassis' │
+│   278   │   'EUI64-0080E103000226BB'   │  '732449'  │   'present'    │   true    │                'room2-2 Motion+ 26BB'                │ 'physicalOrChassis' │
+│   279   │   'EUI64-0080E103000226C6'   │  '732449'  │   'present'    │   true    │                'room8-1 Motion+ 26C6'                │ 'physicalOrChassis' │
+│   280   │   'EUI64-0080E103000378B2'   │  '732449'  │   'present'    │   true    │                'room6-1 Motion+ 78B2'                │ 'physicalOrChassis' │
+│   281   │   'EUI64-0080E103000379D6'   │  '732449'  │    'shadow'    │   true    │                'room5-3 Motion+ 79D6'                │ 'physicalOrChassis' │
+│   282   │   'EUI64-0080E1030004326B'   │  '732449'  │   'present'    │   true    │                'room5-1 Motion+ 326B'                │ 'physicalOrChassis' │
+│   283   │   'EUI64-0080E10300037705'   │  '732449'  │   'present'    │   true    │                'room9-3 Motion+ 7705'                │ 'physicalOrChassis' │
+│   284   │   'EUI64-00124B001935619F'   │  '732449'  │   'present'    │   true    │ 'room5-6 Yanzi IoT Hybrid Mesh 868MHz\n        619F' │ 'physicalOrChassis' │
+│   285   │   'EUI64-0080E10300044BD1'   │  '732449'  │   'present'    │   true    │               'room10-3 Motion+ 4BD1'                │ 'physicalOrChassis' │
+│   286   │   'EUI64-0080E103000439E6'   │  '732449'  │    'shadow'    │   true    │                'room4-3 Motion+ 39E6'                │ 'physicalOrChassis' │
+│   287   │   'EUI64-0080E103000379EA'   │  '732449'  │   'present'    │   true    │               'room10-1 Motion+ 79EA'                │ 'physicalOrChassis' │
+│   288   │   'EUI64-0080E10300037C55'   │  '732449'  │   'present'    │   true    │                'room8-2 Motion+ 7C55'                │ 'physicalOrChassis' │
+│   289   │   'EUI64-0080E10300037BD8'   │  '732449'  │   'present'    │   true    │                'room6-3 Motion+ 7BD8'                │ 'physicalOrChassis' │
+│   290   │   'EUI64-0080E103000439C3'   │  '732449'  │   'present'    │   true    │                'room4-2 Motion+ 39C3'                │ 'physicalOrChassis' │
+│   291   │   'EUI64-0080E103000378F5'   │  '732449'  │    'shadow'    │   true    │                'room1-3 Motion+ 78F5'                │ 'physicalOrChassis' │
+│   292   │   'EUI64-0080E10300037620'   │  '732449'  │    'shadow'    │   true    │               'room10-2 Motion+ 7620'                │ 'physicalOrChassis' │
+│   293   │   'EUI64-0080E10300037A87'   │  '732449'  │   'present'    │   true    │                'room7-2 Motion+ 7A87'                │ 'physicalOrChassis' │
+│   294   │   'EUI64-0080E10300043865'   │  '732449'  │   'present'    │   true    │                'room6-2 Motion+ 3865'                │ 'physicalOrChassis' │
+│   295   │   'EUI64-0080E10300037E08'   │  '732449'  │   'present'    │   true    │                'room8-3 Motion+ 7E08'                │ 'physicalOrChassis' │
+│   296   │   'EUI64-0080E10300037712'   │  '732449'  │   'present'    │   true    │                'room7-3 Motion+ 7712'                │ 'physicalOrChassis' │
+│   297   │   'EUI64-0080E10300037A59'   │  '732449'  │    'shadow'    │   true    │                'room1-4 Motion+ 7A59'                │ 'physicalOrChassis' │
+│   298   │   'EUI64-0080E1030003795A'   │  '732449'  │   'present'    │   true    │                'room7-1 Motion+ 795A'                │ 'physicalOrChassis' │
+│   299   │   'EUI64-0080E103000378DA'   │  '732449'  │   'present'    │   true    │                'room9-1 Motion+ 78DA'                │ 'physicalOrChassis' │
+│   300   │   'EUI64-0080E10300037722'   │  '732449'  │    'shadow'    │   true    │                'room9-2 Motion+ 7722'                │ 'physicalOrChassis' │
+│   301   │   'EUI64-0080E10300043A6D'   │  '732449'  │   'present'    │   true    │                'room1-1 Motion+ 3A6D'                │ 'physicalOrChassis' │
+│   302   │   'EUI64-0080E103000378E6'   │  '732449'  │   'present'    │   true    │                'room5-2 Motion+ 78E6'                │ 'physicalOrChassis' │
+│   303   │   'EUI64-0080E103000376F4'   │  '732449'  │   'present'    │   true    │                'room4-1 Motion+ 76F4'                │ 'physicalOrChassis' │
+│   304   │   'EUI64-0080E10300044EAB'   │  '732449'  │    'shadow'    │   true    │                'room3-3 Motion+ 4EAB'                │ 'physicalOrChassis' │
+│   305   │   'EUI64-0080E1030004501C'   │  '732449'  │   'present'    │   true    │                'room3-2 Motion+ 501C'                │ 'physicalOrChassis' │
+│   306   │   'EUI64-00124B00193561A0'   │  '732449'  │   'present'    │   true    │ 'room6-6 Yanzi IoT Hybrid Mesh 868MHz\n        61A0' │ 'physicalOrChassis' │
+│   307   │   'EUI64-0080E103000376E0'   │  '732449'  │    'shadow'    │   true    │                'room2-3 Motion+ 76E0'                │ 'physicalOrChassis' │
+│   308   │   'EUI64-0080E10300044614'   │  '732449'  │   'present'    │   true    │                'room3-1 Motion+ 4614'                │ 'physicalOrChassis' │
+│   309   │   'EUI64-D0CF5EFFFE792CD8'   │  '306571'  │   'present'    │   true    │             'chair8- Presence Mini 2CD8'             │ 'physicalOrChassis' │
+│   310   │   'EUI64-0080E10300056F40'   │  '306571'  │    'shadow'    │   true    │             'Meeting Room1 Motion+ 6F40'             │ 'physicalOrChassis' │
+│   311   │   'EUI64-90FD9FFFFEA93F5C'   │  '306571'  │   'present'    │   true    │             'chair2 Presence Mini 3F5C'              │ 'physicalOrChassis' │
+│   312   │   'EUI64-90FD9FFFFEA93DB7'   │  '306571'  │   'present'    │   true    │             'chair8 Presence Mini 3DB7'              │ 'physicalOrChassis' │
+│   313   │   'EUI64-90FD9FFFFEA950A1'   │  '306571'  │   'present'    │   true    │             'chair14 Presence Mini 50A1'             │ 'physicalOrChassis' │
+│   314   │   'EUI64-D0CF5EFFFE69E0B4'   │  '306571'  │    'shadow'    │   true    │             'chair17 Presence Mini E0B4'             │ 'physicalOrChassis' │
+│   315   │   'EUI64-D0CF5EFFFE792C0A'   │  '306571'  │   'present'    │   true    │             'chair4 Presence Mini 2C0A'              │ 'physicalOrChassis' │
+│   316   │   'EUI64-90FD9FFFFEA93F87'   │  '306571'  │   'present'    │   true    │             'chair6 Presence Mini 3F87'              │ 'physicalOrChassis' │
+│   317   │   'EUI64-D0CF5EFFFE792BC7'   │  '306571'  │   'present'    │   true    │             'chair5 Presence Mini 2BC7'              │ 'physicalOrChassis' │
+│   318   │   'EUI64-D0CF5EFFFE7B282F'   │  '306571'  │   'present'    │   true    │             'chair7- Presence Mini 282F'             │ 'physicalOrChassis' │
+│   319   │   'EUI64-D0CF5EFFFE792C89'   │  '306571'  │   'present'    │   true    │             'chair9 Presence Mini 2C89'              │ 'physicalOrChassis' │
+│   320   │   'EUI64-90FD9FFFFEA93F4E'   │  '306571'  │   'present'    │   true    │             'chair1 Presence Mini 3F4E'              │ 'physicalOrChassis' │
+│   321   │   'EUI64-D0CF5EFFFE793DE3'   │  '306571'  │   'present'    │   true    │             'chair13 Presence Mini 3DE3'             │ 'physicalOrChassis' │
+│   322   │   'EUI64-D0CF5EFFFE108D1B'   │  '306571'  │   'present'    │   true    │             'chair10 Presence Mini 8D1B'             │ 'physicalOrChassis' │
+│   323   │   'EUI64-D0CF5EFFFE7931C7'   │  '306571'  │   'present'    │   true    │             'chair18 Presence Mini 31C7'             │ 'physicalOrChassis' │
+│   324   │   'EUI64-D0CF5EFFFE7B284B'   │  '306571'  │   'present'    │   true    │             'chair7 Presence Mini 284B'              │ 'physicalOrChassis' │
+│   325   │   'EUI64-0080E1030005453A'   │  '306571'  │   'present'    │   true    │             'Meeting Room2 Motion+ 453A'             │ 'physicalOrChassis' │
+│   326   │   'EUI64-D0CF5EFFFE793ED2'   │  '306571'  │   'present'    │   true    │             'chair3 Presence Mini 3ED2'              │ 'physicalOrChassis' │
+│   327   │   'EUI64-00124B0018F05BE9'   │  '938433'  │    'shadow'    │   true    │                        '男厕'                        │ 'physicalOrChassis' │
+│   328   │   'EUI64-D0CF5EFFFE59CF18'   │  '938433'  │   'present'    │   true    │                'DESK2-1 PresenceMini'                │ 'physicalOrChassis' │
+│   329   │   'EUI64-D0CF5EFFFE792831'   │  '938433'  │   'present'    │   true    │                'DESK9-1 PresenceMini'                │ 'physicalOrChassis' │
+│   330   │   'EUI64-D0CF5EFFFE59F28F'   │  '938433'  │   'present'    │   true    │                'DESK1-2 PresenceMini'                │ 'physicalOrChassis' │
+│   331   │   'EUI64-00124B0018F05BCE'   │  '938433'  │    'shadow'    │   true    │                    'ROOM4-2 Bump'                    │ 'physicalOrChassis' │
+│   332   │   'EUI64-D0CF5EFFFE793DA4'   │  '938433'  │   'present'    │   true    │                'DESK7-2 PresenceMini'                │ 'physicalOrChassis' │
+│   333   │   'EUI64-D0CF5EFFFE10911B'   │  '938433'  │   'present'    │   true    │                'DESK3-2 PresenceMini'                │ 'physicalOrChassis' │
+│   334   │   'EUI64-00124B0018F058CC'   │  '938433'  │    'shadow'    │   true    │                    'ROOM2-2 Bump'                    │ 'physicalOrChassis' │
+│   335   │   'EUI64-90FD9FFFFEA95BB0'   │  '938433'  │   'present'    │   true    │                'DESK8-1 PresenceMini'                │ 'physicalOrChassis' │
+│   336   │   'EUI64-D0CF5EFFFE108BF9'   │  '938433'  │   'present'    │   true    │                'DESK8-2 PresenceMini'                │ 'physicalOrChassis' │
+│   337   │   'EUI64-00124B0014C850DD'   │  '938433'  │   'present'    │   true    │                'ROOM2-2 GORDON_1_868'                │ 'physicalOrChassis' │
+│   338   │   'EUI64-D0CF5EFFFE109751'   │  '938433'  │   'present'    │   true    │                'DESK2-2 PresenceMini'                │ 'physicalOrChassis' │
+│   339   │   'EUI64-90FD9FFFFEA9596E'   │  '938433'  │   'present'    │   true    │                'DESK3-1 PresenceMini'                │ 'physicalOrChassis' │
+│   340   │   'EUI64-D0CF5EFFFE1096DB'   │  '938433'  │   'present'    │   true    │                'DESK5-2 PresenceMini'                │ 'physicalOrChassis' │
+│   341   │   'EUI64-D0CF5EFFFE792D6A'   │  '938433'  │   'present'    │   true    │                'DESK4-2 PresenceMini'                │ 'physicalOrChassis' │
+│   342   │   'EUI64-D0CF5EFFFE7935FA'   │  '938433'  │   'present'    │   true    │                'DESK6-2 PresenceMini'                │ 'physicalOrChassis' │
+│   343   │   'EUI64-00124B0018F052D0'   │  '938433'  │    'shadow'    │   true    │                        '女厕'                        │ 'physicalOrChassis' │
+│   344   │   'EUI64-D0CF5EFFFE69E436'   │  '938433'  │   'present'    │   true    │                'DESK6-1 PresenceMini'                │ 'physicalOrChassis' │
+│   345   │   'EUI64-D0CF5EFFFE69E315'   │  '938433'  │   'present'    │   true    │               'DESK10-1 PresenceMini'                │ 'physicalOrChassis' │
+│   346   │   'EUI64-D0CF5EFFFE59CDCF'   │  '938433'  │   'present'    │   true    │                'DESK4-1 PresenceMini'                │ 'physicalOrChassis' │
+│   347   │   'EUI64-D0CF5EFFFE69E2FF'   │  '938433'  │   'present'    │   true    │                'DESK5-1 PresenceMini'                │ 'physicalOrChassis' │
+│   348   │   'EUI64-90FD9FFFFEA93FC5'   │  '938433'  │   'present'    │   true    │                'DESK9-2 PresenceMini'                │ 'physicalOrChassis' │
+│   349   │   'EUI64-90FD9FFFFEA9399B'   │  '938433'  │   'present'    │   true    │                'DESK7-1 PresenceMini'                │ 'physicalOrChassis' │
+│   350   │   'EUI64-D0CF5EFFFE59D004'   │  '938433'  │   'present'    │   true    │                'DESK1-1 PresenceMini'                │ 'physicalOrChassis' │
+│   351   │   'EUI64-00124B0018F0509E'   │  '190773'  │    'shadow'    │   true    │              '001 Yanzi IoT Mesh 509E'               │ 'physicalOrChassis' │
+│   352   │   'EUI64-90FD9FFFFEA95203'   │  '190773'  │    'shadow'    │   true    │              'Desk Presence Mini 5203'               │ 'physicalOrChassis' │
+│   353   │   'EUI64-0080E10300056884'   │  '190773'  │   'present'    │   true    │                'Walkman Motion+ 6884'                │ 'physicalOrChassis' │
+│   354   │   'EUI64-0080E10300057F22'   │  '190773'  │   'present'    │   true    │                 'Desk Motion+ 7F22'                  │ 'physicalOrChassis' │
+│   355   │   'EUI64-00124B0018F05BD4'   │  '190773'  │    'shadow'    │   true    │                                                      │ 'physicalOrChassis' │
+│   356   │   'EUI64-0080E1030005282C'   │  '190773'  │    'shadow'    │   true    │                  '025 Motion+ 282C'                  │ 'physicalOrChassis' │
+│   357   │   'EUI64-0080E10300053755'   │  '190773'  │    'shadow'    │   true    │                  '019 Motion+ 3755'                  │ 'physicalOrChassis' │
+│   358   │   'EUI64-0080E10300056109'   │  '190773'  │    'shadow'    │   true    │                  '054 Motion+ 6109'                  │ 'physicalOrChassis' │
+│   359   │   'EUI64-0080E10300055946'   │  '190773'  │    'shadow'    │   true    │                  '045 Motion+ 5946'                  │ 'physicalOrChassis' │
+│   360   │   'EUI64-90FD9FFFFEA950F4'   │  '190773'  │    'shadow'    │   true    │              'Desk Presence Mini 50F4'               │ 'physicalOrChassis' │
+│   361   │   'EUI64-D0CF5EFFFE792A65'   │  '190773'  │    'shadow'    │   true    │              'Chair Presence Mini 2A65'              │ 'physicalOrChassis' │
+│   362   │   'EUI64-0080E1030005098E'   │  '190773'  │    'shadow'    │   true    │                  '037 Motion+ 098E'                  │ 'physicalOrChassis' │
+│   363   │   'EUI64-0080E10300057268'   │  '190773'  │    'shadow'    │   true    │                 'Desk Motion+ 7268'                  │ 'physicalOrChassis' │
+│   364   │   'EUI64-90FD9FFFFEA95121'   │  '190773'  │    'shadow'    │   true    │               '005 Presence Mini 5121'               │ 'physicalOrChassis' │
+│   365   │   'EUI64-D0CF5EFFFE793157'   │  '190773'  │    'shadow'    │   true    │              'Desk Presence Mini 3157'               │ 'physicalOrChassis' │
+│   366   │   'EUI64-0080E10300057533'   │  '190773'  │    'shadow'    │   true    │                  '024 Motion+ 7533'                  │ 'physicalOrChassis' │
+│   367   │   'EUI64-0080E1030005439B'   │  '190773'  │    'shadow'    │   true    │                  '056 Motion+ 439B'                  │ 'physicalOrChassis' │
+│   368   │   'EUI64-D0CF5EFFFE7B2A9F'   │  '190773'  │    'shadow'    │   true    │              'Desk Presence Mini 2A9F'               │ 'physicalOrChassis' │
+│   369   │   'EUI64-0080E103000544A6'   │  '190773'  │    'shadow'    │   true    │                  '057 Motion+ 44A6'                  │ 'physicalOrChassis' │
+│   370   │   'EUI64-90FD9FFFFEA7876C'   │  '190773'  │    'shadow'    │   true    │              'Desk Presence Mini 876C'               │ 'physicalOrChassis' │
+│   371   │   'EUI64-0080E103000571B5'   │  '190773'  │    'shadow'    │   true    │                  '002 Motion+ 71B5'                  │ 'physicalOrChassis' │
+│   372   │   'EUI64-0080E10300057B31'   │  '190773'  │   'present'    │   true    │                 'Desk Motion+ 7B31'                  │ 'physicalOrChassis' │
+│   373   │   'EUI64-0080E10300050285'   │  '190773'  │   'present'    │   true    │                  '058 Motion+ 0285'                  │ 'physicalOrChassis' │
+│   374   │   'EUI64-00124B0018ED2E0E'   │  '190773'  │    'shadow'    │   true    │              '001 Yanzi IoT Mesh 2E0E'               │ 'physicalOrChassis' │
+│   375   │   'EUI64-0080E10300053EF6'   │  '190773'  │    'shadow'    │   true    │                  '003 Motion+ 3EF6'                  │ 'physicalOrChassis' │
+│   376   │   'EUI64-D0CF5EFFFE794075'   │  '668617'  │   'present'    │   true    │                'DESK3-1 PresenceMini'                │ 'physicalOrChassis' │
+│   377   │   'EUI64-0080E10300043DEB'   │  '328916'  │    'shadow'    │   true    │                        '19-6'                        │ 'physicalOrChassis' │
+│   378   │   'EUI64-0080E10300043DE8'   │  '328916'  │   'present'    │   true    │                       '19-23'                        │ 'physicalOrChassis' │
+│   379   │   'EUI64-0080E10300037A01'   │  '328916'  │   'present'    │   true    │                       '19-10'                        │ 'physicalOrChassis' │
+│   380   │   'EUI64-0080E10300044C0B'   │  '328916'  │   'present'    │   true    │                       '19-24'                        │ 'physicalOrChassis' │
+│   381   │   'EUI64-0080E10300044682'   │  '328916'  │   'present'    │   true    │                        '19-7'                        │ 'physicalOrChassis' │
+│   382   │   'EUI64-0080E10300037CE5'   │  '328916'  │   'present'    │   true    │                       '19-22'                        │ 'physicalOrChassis' │
+│   383   │   'EUI64-0080E10300043432'   │  '328916'  │    'shadow'    │   true    │                        '19-2'                        │ 'physicalOrChassis' │
+│   384   │   'EUI64-0080E1030002B541'   │  '328916'  │    'shadow'    │   true    │                       '19-28'                        │ 'physicalOrChassis' │
+│   385   │   'EUI64-0080E10300037EF3'   │  '328916'  │   'present'    │   true    │                       '19-15'                        │ 'physicalOrChassis' │
+│   386   │   'EUI64-0080E10300037C7E'   │  '328916'  │   'present'    │   true    │                        '19-1'                        │ 'physicalOrChassis' │
+│   387   │   'EUI64-00124B001935619A'   │  '328916'  │   'present'    │   true    │ 'room6-6 Yanzi IoT Hybrid Mesh 868MHz\n        619A' │ 'physicalOrChassis' │
+│   388   │   'EUI64-0080E103000379B5'   │  '328916'  │   'present'    │   true    │                       '19-17'                        │ 'physicalOrChassis' │
+│   389   │   'EUI64-0080E10300037A23'   │  '328916'  │   'present'    │   true    │                       '19-25'                        │ 'physicalOrChassis' │
+│   390   │   'EUI64-0080E103000377D0'   │  '328916'  │   'present'    │   true    │                       '19-13'                        │ 'physicalOrChassis' │
+│   391   │   'EUI64-0080E1030003797A'   │  '328916'  │   'present'    │   true    │                        '19-8'                        │ 'physicalOrChassis' │
+│   392   │   'EUI64-0080E1030003797C'   │  '328916'  │   'present'    │   true    │                       '19-20'                        │ 'physicalOrChassis' │
+│   393   │   'EUI64-0080E10300044CF8'   │  '328916'  │   'present'    │   true    │                       '19-14'                        │ 'physicalOrChassis' │
+│   394   │   'EUI64-0080E10300044C74'   │  '328916'  │   'present'    │   true    │                       '19-16'                        │ 'physicalOrChassis' │
+│   395   │   'EUI64-0080E10300037B8D'   │  '328916'  │    'shadow'    │   true    │                       '19-27'                        │ 'physicalOrChassis' │
+│   396   │   'EUI64-0080E10300043F4D'   │  '328916'  │   'present'    │   true    │                       '19-19'                        │ 'physicalOrChassis' │
+│   397   │   'EUI64-0080E10300043E2B'   │  '328916'  │   'present'    │   true    │                        '19-5'                        │ 'physicalOrChassis' │
+│   398   │   'EUI64-00124B0019356126'   │  '328916'  │   'present'    │   true    │ 'room5-6 Yanzi IoT Hybrid Mesh 868MHz\n        6126' │ 'physicalOrChassis' │
+│   399   │   'EUI64-0080E10300037FF8'   │  '328916'  │   'present'    │   true    │                       '19-18'                        │ 'physicalOrChassis' │
+│   400   │   'EUI64-0080E10300043ED5'   │  '328916'  │   'present'    │   true    │                       '19-11'                        │ 'physicalOrChassis' │
+│   401   │   'EUI64-0080E1030004419A'   │  '328916'  │    'shadow'    │   true    │                       '19-31'                        │ 'physicalOrChassis' │
+│   402   │   'EUI64-0080E10300043EDE'   │  '328916'  │   'present'    │   true    │                        '19-3'                        │ 'physicalOrChassis' │
+│   403   │   'EUI64-0080E1030003799F'   │  '328916'  │   'present'    │   true    │                        '19-9'                        │ 'physicalOrChassis' │
+│   404   │   'EUI64-0080E1030003763C'   │  '328916'  │   'present'    │   true    │                        '19-4'                        │ 'physicalOrChassis' │
+│   405   │   'EUI64-0080E10300037E14'   │  '328916'  │    'shadow'    │   true    │                       '19-28'                        │ 'physicalOrChassis' │
+│   406   │   'EUI64-0080E10300037A9E'   │  '328916'  │   'present'    │   true    │                       '19-21'                        │ 'physicalOrChassis' │
+│   407   │   'EUI64-0080E10300043EAE'   │  '328916'  │   'present'    │   true    │                       '19-26'                        │ 'physicalOrChassis' │
+│   408   │   'EUI64-0080E10300028B6E'   │  '328916'  │   'present'    │   true    │                       '19-12'                        │ 'physicalOrChassis' │
+│   409   │   'EUI64-0080E103000435C0'   │  '328916'  │    'shadow'    │   true    │                       '19-30'                        │ 'physicalOrChassis' │
+│   410   │   'EUI64-0080E103000432B8'   │  '268429'  │   'present'    │   true    │                      'room1-2'                       │ 'physicalOrChassis' │
+│   411   │   'EUI64-0080E10300044C0C'   │  '268429'  │   'present'    │   true    │                      'room2-2'                       │ 'physicalOrChassis' │
+│   412   │   'EUI64-0080E10300037A09'   │  '268429'  │   'present'    │   true    │                'room7-2 Motion+ 7A09'                │ 'physicalOrChassis' │
+│   413   │   'EUI64-0080E10300043558'   │  '268429'  │   'present'    │   true    │                'room5-1 Motion+ 3558'                │ 'physicalOrChassis' │
+│   414   │   'EUI64-0080E10300043EE2'   │  '268429'  │   'present'    │   true    │                'room5-3 Motion+ 3EE2'                │ 'physicalOrChassis' │
+│   415   │   'EUI64-0080E10300043EF3'   │  '268429'  │   'present'    │   true    │                      'room1-1'                       │ 'physicalOrChassis' │
+│   416   │   'EUI64-0080E10300037D4D'   │  '268429'  │   'present'    │   true    │                'room9-2 Motion+ 7D4D'                │ 'physicalOrChassis' │
+│   417   │   'EUI64-0080E103000444B3'   │  '268429'  │   'present'    │   true    │                'room6-2 Motion+ 44B3'                │ 'physicalOrChassis' │
+│   418   │   'EUI64-0080E10300044BB9'   │  '268429'  │    'shadow'    │   true    │                      'room7-3'                       │ 'physicalOrChassis' │
+│   419   │   'EUI64-0080E10300037B5E'   │  '268429'  │   'present'    │   true    │                'room2-1 Motion+ 7B5E'                │ 'physicalOrChassis' │
+│   420   │   'EUI64-0080E10300044CDD'   │  '268429'  │   'present'    │   true    │                'room3-2 Motion+ 4CDD'                │ 'physicalOrChassis' │
+│   421   │   'EUI64-0080E103000379DD'   │  '268429'  │   'present'    │   true    │                'room9-1 Motion+ 79DD'                │ 'physicalOrChassis' │
+│   422   │   'EUI64-0080E1030003782B'   │  '268429'  │    'shadow'    │   true    │                      'room10-3'                      │ 'physicalOrChassis' │
+│   423   │   'EUI64-0080E103000432CE'   │  '268429'  │   'present'    │   true    │                      'room10-1'                      │ 'physicalOrChassis' │
+│   424   │   'EUI64-0080E10300044DE6'   │  '268429'  │   'present'    │   true    │                      'room8-2'                       │ 'physicalOrChassis' │
+│   425   │   'EUI64-0080E10300044D57'   │  '268429'  │   'present'    │   true    │                'room5-2 Motion+ 4D57'                │ 'physicalOrChassis' │
+│   426   │   'EUI64-0080E10300043FA0'   │  '268429'  │   'present'    │   true    │                'room3-3 Motion+ 3FA0'                │ 'physicalOrChassis' │
+│   427   │   'EUI64-0080E10300044395'   │  '268429'  │   'present'    │   true    │                'room6-1 Motion+ 4395'                │ 'physicalOrChassis' │
+│   428   │   'EUI64-0080E10300037FBC'   │  '268429'  │   'present'    │   true    │                'room4-2 Motion+ 7FBC'                │ 'physicalOrChassis' │
+│   429   │   'EUI64-0080E10300037875'   │  '268429'  │   'present'    │   true    │                'room4-1 Motion+ 7875'                │ 'physicalOrChassis' │
+│   430   │   'EUI64-0080E10300044BF0'   │  '268429'  │   'present'    │   true    │                'room6-3 Motion+ 4BF0'                │ 'physicalOrChassis' │
+│   431   │   'EUI64-0080E1030002478B'   │  '268429'  │   'present'    │   true    │                'room4-3 Motion+ 478B'                │ 'physicalOrChassis' │
+│   432   │   'EUI64-0080E1030002478E'   │  '268429'  │    'shadow'    │   true    │                      'room8-1'                       │ 'physicalOrChassis' │
+│   433   │   'EUI64-0080E10300043532'   │  '268429'  │   'present'    │   true    │                'room3-1 Motion+ 3532'                │ 'physicalOrChassis' │
+│   434   │   'EUI64-00124B0019356243'   │  '268429'  │    'shadow'    │   true    │ 'room6-6 Yanzi IoT Hybrid Mesh 868MHz\n        6243' │ 'physicalOrChassis' │
+│   435   │   'EUI64-0080E1030002B391'   │  '268429'  │   'present'    │   true    │                'room7-1 Motion+ B391'                │ 'physicalOrChassis' │
+│   436   │   'EUI64-0080E10300043FC9'   │  '268429'  │   'present'    │   true    │                      'room1-3'                       │ 'physicalOrChassis' │
+│   437   │   'EUI64-0080E10300044B8A'   │  '268429'  │   'present'    │   true    │               'room10-2 Motion+ 4B8A'                │ 'physicalOrChassis' │
+│   438   │   'EUI64-0080E103000446A2'   │  '268429'  │   'present'    │   true    │                'room2-3 Motion+ 46A2'                │ 'physicalOrChassis' │
+│   439   │   'EUI64-00124B0019356F70'   │  '268429'  │   'present'    │   true    │ 'room5-6 Yanzi IoT Hybrid Mesh 868MHz\n        6F70' │ 'physicalOrChassis' │
+│   440   │   'EUI64-0080E10300037763'   │  '268429'  │    'shadow'    │   true    │                'room8-3 Motion+ 7763'                │ 'physicalOrChassis' │
+│   441   │   'EUI64-0080E1030002284A'   │  '268429'  │    'shadow'    │   true    │                'room9-3 Motion+ 284A'                │ 'physicalOrChassis' │
+│   442   │   'EUI64-0080E1030004438D'   │  '229349'  │    'shadow'    │   true    │                         'M2'                         │ 'physicalOrChassis' │
+│   443   │   'EUI64-90FD9FFFFEA94E89'   │  '229349'  │   'present'    │   true    │                       'ROCKY'                        │ 'physicalOrChassis' │
+│   444   │   'EUI64-90FD9FFFFEA95289'   │  '229349'  │   'present'    │   true    │                       'm2-b13'                       │ 'physicalOrChassis' │
+│   445   │   'EUI64-D0CF5EFFFE79310D'   │  '229349'  │   'present'    │   true    │                       'm2-b12'                       │ 'physicalOrChassis' │
+│   446   │   'EUI64-0080E10300056EB7'   │  '229349'  │   'present'    │   true    │                         'm1'                         │ 'physicalOrChassis' │
+│   447   │   'EUI64-D0CF5EFFFE7932C2'   │  '229349'  │   'present'    │   true    │                       'm2-b14'                       │ 'physicalOrChassis' │
+│   448   │   'EUI64-90FD9FFFFEA9528F'   │  '229349'  │   'present'    │   true    │                       'M2-B11'                       │ 'physicalOrChassis' │
+│   449   │   'EUI64-D0CF5EFFFE7931BA'   │  '229349'  │   'present'    │   true    │                        'yang'                        │ 'physicalOrChassis' │
+│   450   │   'EUI64-D0CF5EFFFE59F28A'   │  '229349'  │   'present'    │   true    │                       'm1-b6'                        │ 'physicalOrChassis' │
+│   451   │   'EUI64-90FD9FFFFEA9527C'   │  '229349'  │   'present'    │   true    │                       'm2-b10'                       │ 'physicalOrChassis' │
+│   452   │   'EUI64-D0CF5EFFFE7931B3'   │  '229349'  │   'present'    │   true    │                       'david'                        │ 'physicalOrChassis' │
+│   453   │   'EUI64-0080E1030002DDDB'   │  '229349'  │   'present'    │   true    │                     'Open Plan'                      │ 'physicalOrChassis' │
+│   454   │   'EUI64-90FD9FFFFEA950FF'   │  '229349'  │   'present'    │   true    │                      'xiaohua'                       │ 'physicalOrChassis' │
+│   455   │   'EUI64-0080E1030005D584'   │  '229349'  │   'present'    │   true    │                        'SONG'                        │ 'physicalOrChassis' │
+│   456   │   'EUI64-0080E1030002BC7C'   │  '229349'  │    'shadow'    │   true    │                      'fangtang'                      │ 'physicalOrChassis' │
+│   457   │   'EUI64-D0CF5EFFFE7931DA'   │  '229349'  │   'present'    │   true    │                       'm1-b7'                        │ 'physicalOrChassis' │
+│   458   │   'EUI64-D0CF5EFFFE793144'   │  '229349'  │   'present'    │   true    │                        'SAIL'                        │ 'physicalOrChassis' │
+│   459   │   'EUI64-D0CF5EFFFE7931D9'   │  '229349'  │   'present'    │   true    │                       'm2-b9'                        │ 'physicalOrChassis' │
+│   460   │   'EUI64-D0CF5EFFFE793380'   │  '229349'  │   'present'    │   true    │                       'm1-b5'                        │ 'physicalOrChassis' │
+│   461   │   'EUI64-D0CF5EFFFE792F82'   │  '229349'  │   'present'    │   true    │                       'm1-b8'                        │ 'physicalOrChassis' │
+│   462   │   'EUI64-0080E1030005DFA9'   │  '229349'  │   'present'    │   true    │                        'LYY'                         │ 'physicalOrChassis' │
+│   463   │   'EUI64-D0CF5EFFFE7931D6'   │  '229349'  │   'present'    │   true    │                       '安小帅'                       │ 'physicalOrChassis' │
+│   464   │   'EUI64-0080E1030005CA0F'   │  '229349'  │   'present'    │   true    │                       'FRANK'                        │ 'physicalOrChassis' │
+│   465   │   'EUI64-0080E10300053BA3'   │  '229349'  │   'present'    │   true    │                        'HANK'                        │ 'physicalOrChassis' │
+│   466   │   'EUI64-0080E1030005CFC9'   │  '229349'  │   'present'    │   true    │                     'Marketing'                      │ 'physicalOrChassis' │
+│   467   │   'EUI64-90FD9FFFFEA938E2'   │  '229349'  │   'present'    │   true    │                     'Room1Desk'                      │ 'physicalOrChassis' │
+│   468   │   'EUI64-90FD9FFFFEA9510F'   │  '229349'  │   'present'    │   true    │                       'm1-b2'                        │ 'physicalOrChassis' │
+│   469   │   'EUI64-D0CF5EFFFE793047'   │  '229349'  │   'present'    │   true    │                        'maro'                        │ 'physicalOrChassis' │
+│   470   │   'EUI64-D0CF5EFFFE792D76'   │  '229349'  │   'present'    │   true    │                        'FLY'                         │ 'physicalOrChassis' │
+│   471   │   'EUI64-D0CF5EFFFE59F26C'   │  '229349'  │   'present'    │   true    │                       'm1-b4'                        │ 'physicalOrChassis' │
+│   472   │   'EUI64-90FD9FFFFEA95255'   │  '229349'  │   'present'    │   true    │                       'lucas'                        │ 'physicalOrChassis' │
+│   473   │   'EUI64-0080E1030004FC61'   │  '229349'  │    'shadow'    │   true    │                'Open Plan Area E143'                 │ 'physicalOrChassis' │
+│   474   │   'EUI64-D0CF5EFFFE793068'   │  '229349'  │   'present'    │   true    │                       'm1-b3'                        │ 'physicalOrChassis' │
+│   475   │   'EUI64-D0CF5EFFFE792D88'   │  '229349'  │   'present'    │   true    │                       'BRUCE'                        │ 'physicalOrChassis' │
+│   476   │   'EUI64-D0CF5EFFFE79305F'   │  '229349'  │    'shadow'    │   true    │                       'm1-b1'                        │ 'physicalOrChassis' │
+│   477   │   'EUI64-D0CF5EFFFE792C63'   │  '229349'  │    'shadow'    │   true    │                 'desk6 PresenceMini'                 │ 'physicalOrChassis' │
+│   478   │   'EUI64-D0CF5EFFFE792D84'   │  '229349'  │   'present'    │   true    │                      'JASMINE'                       │ 'physicalOrChassis' │
+│   479   │   'EUI64-D0CF5EFFFE79333A'   │  '229349'  │   'present'    │   true    │                        'miss'                        │ 'physicalOrChassis' │
+│   480   │   'EUI64-D0CF5EFFFE69E331'   │  '652990'  │    'shadow'    │   true    │                'DESK1-3 PresenceMini'                │ 'physicalOrChassis' │
+│   481   │   'EUI64-D0CF5EFFFE69DF91'   │  '652990'  │   'present'    │   true    │                'DESK2-3 PresenceMini'                │ 'physicalOrChassis' │
+│   482   │   'EUI64-D0CF5EFFFE793CEB'   │  '652990'  │   'present'    │   true    │                'DESK1-4 PresenceMini'                │ 'physicalOrChassis' │
+│   483   │   'EUI64-90FD9FFFFEA93F14'   │  '88252'   │   'present'    │   true    │                'DESK6-1 PresenceMini'                │ 'physicalOrChassis' │
+│   484   │   'EUI64-90FD9FFFFEA93941'   │  '88252'   │   'present'    │   true    │                'DESK7-1 PresenceMini'                │ 'physicalOrChassis' │
+│   485   │   'EUI64-D0CF5EFFFE7B2932'   │  '88252'   │   'present'    │   true    │                'DESK5-1 PresenceMini'                │ 'physicalOrChassis' │
+│   486   │   'EUI64-D0CF5EFFFE7B25B0'   │  '88252'   │   'present'    │   true    │                'DESK1-1 PresenceMini'                │ 'physicalOrChassis' │
+│   487   │   'EUI64-00124B0018ED2E65'   │  '88252'   │   'present'    │   true    │                        '女厕'                        │ 'physicalOrChassis' │
+│   488   │   'EUI64-90FD9FFFFEA93FFF'   │  '88252'   │   'present'    │   true    │                'DESK2-1 PresenceMini'                │ 'physicalOrChassis' │
+│   489   │   'EUI64-90FD9FFFFEA93FC4'   │  '88252'   │   'present'    │   true    │                'DESK4-1 PresenceMini'                │ 'physicalOrChassis' │
+│   490   │   'EUI64-D0CF5EFFFE7927C7'   │  '88252'   │   'present'    │   true    │                'DESK8-1 PresenceMini'                │ 'physicalOrChassis' │
+│   491   │   'EUI64-D0CF5EFFFE59E294'   │  '88252'   │   'present'    │   true    │                'DESK1-2 PresenceMini'                │ 'physicalOrChassis' │
+│   492   │   'EUI64-D0CF5EFFFE59D27C'   │  '503370'  │   'present'    │   true    │                  '33 PresenceMini'                   │ 'physicalOrChassis' │
+│   493   │   'EUI64-D0CF5EFFFE59F2AA'   │  '503370'  │   'present'    │   true    │                   '6 PresenceMini'                   │ 'physicalOrChassis' │
+│   494   │   'EUI64-D0CF5EFFFE7B282D'   │  '503370'  │   'present'    │   true    │                  '13 PresenceMini'                   │ 'physicalOrChassis' │
+│   495   │   'EUI64-0080E10300037906'   │  '503370'  │   'present'    │   true    │                'wansheng Floor 65C0'                 │ 'physicalOrChassis' │
+│   496   │   'EUI64-D0CF5EFFFE793E17'   │  '503370'  │   'present'    │   true    │                   '9 PresenceMini'                   │ 'physicalOrChassis' │
+│   497   │   'EUI64-0080E10300043DC5'   │  '503370'  │   'present'    │   true    │                   '28 MotionPlus'                    │ 'physicalOrChassis' │
+│   498   │   'EUI64-D0CF5EFFFE793DA1'   │  '503370'  │   'present'    │   true    │                   '1 PresenceMini'                   │ 'physicalOrChassis' │
+│   499   │   'EUI64-D0CF5EFFFE793E25'   │  '503370'  │   'present'    │   true    │                   '5 PresenceMini'                   │ 'physicalOrChassis' │
+│   500   │   'EUI64-90FD9FFFFEA94DA6'   │  '503370'  │   'present'    │   true    │                   '2 PresenceMini'                   │ 'physicalOrChassis' │
+│   501   │   'EUI64-90FD9FFFFEA93DBE'   │  '503370'  │   'present'    │   true    │                  '10 PresenceMini'                   │ 'physicalOrChassis' │
+│   502   │   'EUI64-D0CF5EFFFE793D18'   │  '503370'  │   'present'    │   true    │                  '11 PresenceMini'                   │ 'physicalOrChassis' │
+│   503   │   'EUI64-D0CF5EFFFE792DDA'   │  '503370'  │    'shadow'    │   true    │                  '26 PresenceMini'                   │ 'physicalOrChassis' │
+│   504   │   'EUI64-D0CF5EFFFE793DC2'   │  '503370'  │   'present'    │   true    │                  '18 PresenceMini'                   │ 'physicalOrChassis' │
+│   505   │   'EUI64-0080E1030005C6CF'   │  '503370'  │   'present'    │   true    │                     'C Comfort'                      │ 'physicalOrChassis' │
+│   506   │   'EUI64-0080E10300037AD5'   │  '503370'  │   'present'    │   true    │                    '12 Area 5F0F'                    │ 'physicalOrChassis' │
+│   507   │   'EUI64-0080E1030002974F'   │  '503370'  │   'present'    │   true    │                   '14 MotionPlus'                    │ 'physicalOrChassis' │
+│   508   │   'EUI64-D0CF5EFFFE792AA6'   │  '503370'  │   'present'    │   true    │                  '19 PresenceMini'                   │ 'physicalOrChassis' │
+│   509   │   'EUI64-00124B0018F05967'   │  '503370'  │   'present'    │   true    │                   'wansheng Bump'                    │ 'physicalOrChassis' │
+│   510   │   'EUI64-0080E103000431E1'   │  '503370'  │   'present'    │   true    │                    '15 Area 246B'                    │ 'physicalOrChassis' │
+│   511   │   'EUI64-0080E1030002B3A5'   │  '503370'  │   'present'    │   true    │                   '16 MotionPlus'                    │ 'physicalOrChassis' │
+│   512   │   'EUI64-0080E103000377A8'   │  '503370'  │   'present'    │   true    │                    '32 Area 8BD1'                    │ 'physicalOrChassis' │
+│   513   │   'EUI64-D0CF5EFFFE793F70'   │  '503370'  │   'present'    │   true    │                  '26 PresenceMini'                   │ 'physicalOrChassis' │
+│   514   │   'EUI64-D0CF5EFFFE793F73'   │  '503370'  │   'present'    │   true    │                  '22 PresenceMini'                   │ 'physicalOrChassis' │
+│   515   │   'EUI64-D0CF5EFFFE792C57'   │  '503370'  │   'present'    │   true    │                   '7 PresenceMini'                   │ 'physicalOrChassis' │
+│   516   │   'EUI64-D0CF5EFFFE79320E'   │  '503370'  │   'present'    │   true    │                  '23 PresenceMini'                   │ 'physicalOrChassis' │
+│   517   │   'EUI64-0080E10300044C3B'   │  '503370'  │   'present'    │   true    │                   '12 MotionPlus'                    │ 'physicalOrChassis' │
+│   518   │   'EUI64-0080E10300037A73'   │  '503370'  │   'present'    │   true    │                'wansheng Floor 65C0'                 │ 'physicalOrChassis' │
+│   519   │   'EUI64-0080E103000376B9'   │  '503370'  │   'present'    │   true    │                   '29 MotionPlus'                    │ 'physicalOrChassis' │
+│   520   │   'EUI64-D0CF5EFFFE792D98'   │  '503370'  │   'present'    │   true    │                  '27 PresenceMini'                   │ 'physicalOrChassis' │
+│   521   │   'EUI64-90FD9FFFFEA939C5'   │  '503370'  │    'shadow'    │   true    │                   '3 PresenceMini'                   │ 'physicalOrChassis' │
+│   522   │   'EUI64-0080E103000376C0'   │  '503370'  │   'present'    │   true    │                   '20 MotionPlus'                    │ 'physicalOrChassis' │
+│   523   │   'EUI64-0080E1030003786E'   │  '503370'  │   'present'    │   true    │                'wansheng Floor 65C0'                 │ 'physicalOrChassis' │
+│   524   │   'EUI64-90FD9FFFFEA939CE'   │  '503370'  │   'present'    │   true    │                   '4 PresenceMini'                   │ 'physicalOrChassis' │
+│   525   │   'EUI64-0080E10300043957'   │  '503370'  │   'present'    │   true    │                   '24 MotionPlus'                    │ 'physicalOrChassis' │
+│   526   │   'EUI64-0080E10300037B72'   │  '503370'  │   'present'    │   true    │                   '34 MotionPlus'                    │ 'physicalOrChassis' │
+│   527   │   'EUI64-D0CF5EFFFE793D8A'   │  '503370'  │   'present'    │   true    │                  '32 PresenceMini'                   │ 'physicalOrChassis' │
+│   528   │   'EUI64-D0CF5EFFFE792B7C'   │  '503370'  │   'present'    │   true    │                  '31 PresenceMini'                   │ 'physicalOrChassis' │
+│   529   │   'EUI64-0080E103000379F6'   │  '503370'  │   'present'    │   true    │                'wansheng Floor 65C0'                 │ 'physicalOrChassis' │
+│   530   │   'EUI64-D0CF5EFFFE7930A4'   │  '503370'  │   'present'    │   true    │                  '30 PresenceMini'                   │ 'physicalOrChassis' │
+│   531   │   'EUI64-0080E1030004449E'   │  '503370'  │    'shadow'    │   true    │                    '7 Area 2BF0'                     │ 'physicalOrChassis' │
+│   532   │   'EUI64-D0CF5EFFFE108AE0'   │  '503370'  │   'present'    │   true    │                  '35 PresenceMini'                   │ 'physicalOrChassis' │
+│   533   │   'EUI64-D0CF5EFFFE7931E1'   │  '503370'  │   'present'    │   true    │                   '8 PresenceMini'                   │ 'physicalOrChassis' │
+│   534   │   'EUI64-0080E10300043F54'   │  '503370'  │   'present'    │   true    │                   '21 MotionPlus'                    │ 'physicalOrChassis' │
+│   535   │   'EUI64-D0CF5EFFFE59F2E5'   │  '503370'  │   'present'    │   true    │                  '25 PresenceMini'                   │ 'physicalOrChassis' │
+│   536   │   'EUI64-D0CF5EFFFE792997'   │  '503370'  │   'present'    │   true    │               'wansheng PresenceMini'                │ 'physicalOrChassis' │
+│   537   │   'EUI64-90FD9FFFFEA95111'   │  '503370'  │   'present'    │   true    │                  '34 PresenceMini'                   │ 'physicalOrChassis' │
+│   538   │   'EUI64-00124B0018ED2E6C'   │  '503370'  │   'present'    │   true    │                   'wansheng Bump'                    │ 'physicalOrChassis' │
+│   539   │   'EUI64-0080E1030003766F'   │  '503370'  │   'present'    │   true    │                    '6 Area B9C6'                     │ 'physicalOrChassis' │
+│   540   │   'EUI64-0080E10300043F62'   │  '503370'  │   'present'    │   true    │                   '16 MotionPlus'                    │ 'physicalOrChassis' │
+│   541   │   'EUI64-D0CF5EFFFE793052'   │  '503370'  │   'present'    │   true    │                  '15 PresenceMini'                   │ 'physicalOrChassis' │
+│   542   │   'EUI64-0080E10300037DA0'   │  '503370'  │   'present'    │   true    │                    '31 Area 5646'                    │ 'physicalOrChassis' │
+│   543   │   'EUI64-0080E10300037654'   │  '503370'  │   'present'    │   true    │                'wansheng Floor 65C0'                 │ 'physicalOrChassis' │
+│   544   │   'EUI64-0080E10300037D5C'   │  '402837'  │    'shadow'    │   true    │                'room8-3 Motion+ 7D5C'                │ 'physicalOrChassis' │
+│   545   │   'EUI64-0080E10300037CD4'   │  '402837'  │   'present'    │   true    │                'room3-3 Motion+ 7CD4'                │ 'physicalOrChassis' │
+│   546   │   'EUI64-0080E103000439A2'   │  '402837'  │    'shadow'    │   true    │                'room7-1 Motion+ 39A2'                │ 'physicalOrChassis' │
+│   547   │   'EUI64-0080E10300037BC0'   │  '402837'  │    'shadow'    │   true    │               'room10-3 Motion+ 7BC0'                │ 'physicalOrChassis' │
+│   548   │   'EUI64-0080E10300043E85'   │  '402837'  │   'present'    │   true    │                'room9-2 Motion+ 3E85'                │ 'physicalOrChassis' │
+│   549   │   'EUI64-0080E10300044FD2'   │  '402837'  │    'shadow'    │   true    │                'room9-3 Motion+ 4FD2'                │ 'physicalOrChassis' │
+│   550   │   'EUI64-0080E103000445C1'   │  '402837'  │   'present'    │   true    │                'room7-2 Motion+ 45C1'                │ 'physicalOrChassis' │
+│   551   │   'EUI64-0080E10300037DDB'   │  '402837'  │   'present'    │   true    │                'room3-2 Motion+ 7DDB'                │ 'physicalOrChassis' │
+│   552   │   'EUI64-0080E10300037EFC'   │  '402837'  │   'present'    │   true    │                'room4-1 Motion+ 7EFC'                │ 'physicalOrChassis' │
+│   553   │   'EUI64-0080E10300044474'   │  '402837'  │   'present'    │   true    │                'room8-2 Motion+ 4474'                │ 'physicalOrChassis' │
+│   554   │   'EUI64-0080E103000439D6'   │  '402837'  │   'present'    │   true    │                'room4-2 Motion+ 39D6'                │ 'physicalOrChassis' │
+│   555   │   'EUI64-0080E10300043D99'   │  '402837'  │   'present'    │   true    │                'room5-2 Motion+ 3D99'                │ 'physicalOrChassis' │
+│   556   │   'EUI64-0080E10300037824'   │  '402837'  │   'present'    │   true    │                'room5-1 Motion+ 7824'                │ 'physicalOrChassis' │
+│   557   │   'EUI64-0080E10300043826'   │  '402837'  │   'present'    │   true    │               'room10-1 Motion+ 3826'                │ 'physicalOrChassis' │
+│   558   │   'EUI64-0080E10300044F84'   │  '402837'  │   'present'    │   true    │               'room10-2 Motion+ 4F84'                │ 'physicalOrChassis' │
+│   559   │   'EUI64-0080E10300037BCD'   │  '402837'  │    'shadow'    │   true    │                'room7-3 Motion+ 7BCD'                │ 'physicalOrChassis' │
+│   560   │   'EUI64-0080E103000433EF'   │  '402837'  │   'present'    │   true    │                'room6-1 Motion+ 33EF'                │ 'physicalOrChassis' │
+│   561   │   'EUI64-0080E10300044CCA'   │  '402837'  │   'present'    │   true    │                'room6-3 Motion+ 4CCA'                │ 'physicalOrChassis' │
+│   562   │   'EUI64-0080E103000431C9'   │  '402837'  │   'present'    │   true    │                'room1-2 Motion+ 31C9'                │ 'physicalOrChassis' │
+│   563   │   'EUI64-0080E10300044B66'   │  '402837'  │   'present'    │   true    │                        '1501'                        │ 'physicalOrChassis' │
+│   564   │   'EUI64-0080E10300037A74'   │  '402837'  │   'present'    │   true    │                'room6-2 Motion+ 7A74'                │ 'physicalOrChassis' │
+│   565   │   'EUI64-00124B00193561E1'   │  '402837'  │   'present'    │   true    │ 'ROOM1-5 Yanzi IoT Hybrid Mesh 868MHz\n        61E1' │ 'physicalOrChassis' │
+│   566   │   'EUI64-0080E103000375D6'   │  '402837'  │   'present'    │   true    │                'room8-1 Motion+ 75D6'                │ 'physicalOrChassis' │
+│   567   │   'EUI64-0080E103000375E1'   │  '402837'  │   'present'    │   true    │                'room1-3 Motion+ 75E1'                │ 'physicalOrChassis' │
+│   568   │   'EUI64-0080E10300043DBA'   │  '402837'  │   'present'    │   true    │                'room2-3 Motion+ 3DBA'                │ 'physicalOrChassis' │
+│   569   │   'EUI64-0080E103000375ED'   │  '402837'  │   'present'    │   true    │                'room2-2 Motion+ 75ED'                │ 'physicalOrChassis' │
+│   570   │   'EUI64-0080E103000376D0'   │  '402837'  │   'present'    │   true    │                'room3-1 Motion+ 76D0'                │ 'physicalOrChassis' │
+│   571   │   'EUI64-0080E10300044604'   │  '402837'  │   'present'    │   true    │                'room4-3 Motion+ 4604'                │ 'physicalOrChassis' │
+│   572   │   'EUI64-0080E103000376DF'   │  '402837'  │   'present'    │   true    │                'room2-1 Motion+ 76DF'                │ 'physicalOrChassis' │
+│   573   │   'EUI64-0080E10300037E23'   │  '402837'  │   'present'    │   true    │                'room5-3 Motion+ 7E23'                │ 'physicalOrChassis' │
+│   574   │   'EUI64-00124B0019356212'   │  '402837'  │   'present'    │   true    │ 'ROOM5-5 Yanzi IoT Hybrid Mesh 868MHz\n        6212' │ 'physicalOrChassis' │
+│   575   │   'EUI64-0080E1030004461E'   │  '402837'  │   'present'    │   true    │                'room9-1 Motion+ 461E'                │ 'physicalOrChassis' │
+│   576   │   'EUI64-00124B0014C850ED'   │  '912706'  │    'shadow'    │   true    │                 'ROOM3-3 Area AEEC'                  │ 'physicalOrChassis' │
+│   577   │   'EUI64-90FD9FFFFEA93CAD'   │  '912706'  │   'present'    │   true    │                      'DESK2-3'                       │ 'physicalOrChassis' │
+│   578   │   'EUI64-D0CF5EFFFE793355'   │  '912706'  │   'present'    │   true    │                      'DESK1-1'                       │ 'physicalOrChassis' │
+│   579   │   'EUI64-00124B0014C8505B'   │  '912706'  │   'present'    │   true    │                         '4#'                         │ 'physicalOrChassis' │
+│   580   │   'EUI64-D0CF5EFFFE79358C'   │  '912706'  │   'present'    │   true    │                      'M6-3F-1'                       │ 'physicalOrChassis' │
+│   581   │   'EUI64-D0CF5EFFFE793F50'   │  '912706'  │   'present'    │   true    │                      'M6-3F-3'                       │ 'physicalOrChassis' │
+│   582   │   'EUI64-00124B0014C850B2'   │  '912706'  │    'shadow'    │   true    │                      'DESK6-3'                       │ 'physicalOrChassis' │
+│   583   │   'EUI64-0080E1030004357B'   │  '952675'  │    'shadow'    │   true    │               'room10-3 Motion+ 357B'                │ 'physicalOrChassis' │
+│   584   │   'EUI64-0080E10300037DEC'   │  '952675'  │   'present'    │   true    │                'room1-3 Motion+ 7DEC'                │ 'physicalOrChassis' │
+│   585   │   'EUI64-0080E10300043462'   │  '952675'  │   'present'    │   true    │                'room4-2 Motion+ 3462'                │ 'physicalOrChassis' │
+│   586   │   'EUI64-00124B0019356EF5'   │  '952675'  │   'present'    │   true    │ 'room5-6 Yanzi IoT Hybrid Mesh 868MHz\n        6EF5' │ 'physicalOrChassis' │
+│   587   │   'EUI64-0080E10300028B90'   │  '952675'  │   'present'    │   true    │                'room6-1 Motion+ 8B90'                │ 'physicalOrChassis' │
+│   588   │   'EUI64-0080E10300044C04'   │  '952675'  │   'present'    │   true    │                'room3-3 Motion+ 4C04'                │ 'physicalOrChassis' │
+│   589   │   'EUI64-0080E10300037900'   │  '952675'  │   'present'    │   true    │               'room10-1 Motion+ 7900'                │ 'physicalOrChassis' │
+│   590   │   'EUI64-0080E10300044D00'   │  '952675'  │   'present'    │   true    │                'room1-2 Motion+ 4D00'                │ 'physicalOrChassis' │
+│   591   │   'EUI64-0080E103000445CE'   │  '952675'  │   'present'    │   true    │                'room4-1 Motion+ 45CE'                │ 'physicalOrChassis' │
+│   592   │   'EUI64-0080E10300043A3A'   │  '952675'  │   'present'    │   true    │                'room3-1 Motion+ 3A3A'                │ 'physicalOrChassis' │
+│   593   │   'EUI64-0080E10300044BD2'   │  '952675'  │   'present'    │   true    │                'room4-3 Motion+ 4BD2'                │ 'physicalOrChassis' │
+│   594   │   'EUI64-0080E103000379AC'   │  '952675'  │   'present'    │   true    │                'room8-1 Motion+ 79AC'                │ 'physicalOrChassis' │
+│   595   │   'EUI64-0080E10300044329'   │  '952675'  │   'present'    │   true    │                'room7-1 Motion+ 4329'                │ 'physicalOrChassis' │
+│   596   │   'EUI64-0080E10300043A0A'   │  '952675'  │    'shadow'    │   true    │                'room7-3 Motion+ 3A0A'                │ 'physicalOrChassis' │
+│   597   │   'EUI64-0080E10300043A0C'   │  '952675'  │   'present'    │   true    │                'room1-1 Motion+ 3A0C'                │ 'physicalOrChassis' │
+│   598   │   'EUI64-0080E10300037CF0'   │  '952675'  │   'present'    │   true    │                'room8-2 Motion+ 7CF0'                │ 'physicalOrChassis' │
+│   599   │   'EUI64-0080E10300043D82'   │  '952675'  │   'present'    │   true    │                'room9-2 Motion+ 3D82'                │ 'physicalOrChassis' │
+│   600   │   'EUI64-0080E10300044575'   │  '952675'  │   'present'    │   true    │                'room7-2 Motion+ 4575'                │ 'physicalOrChassis' │
+│   601   │   'EUI64-0080E10300044BA4'   │  '952675'  │   'present'    │   true    │                      'room5-2'                       │ 'physicalOrChassis' │
+│   602   │   'EUI64-0080E103000376B7'   │  '952675'  │   'present'    │   true    │                'room5-1 Motion+ 76B7'                │ 'physicalOrChassis' │
+│   603   │   'EUI64-00124B001935615B'   │  '952675'  │   'present'    │   true    │ 'room6-6 Yanzi IoT Hybrid Mesh 868MHz\n        615B' │ 'physicalOrChassis' │
+│   604   │   'EUI64-0080E10300037FC1'   │  '952675'  │   'present'    │   true    │                'room6-2 Motion+ 7FC1'                │ 'physicalOrChassis' │
+│   605   │   'EUI64-0080E103000377EC'   │  '952675'  │    'shadow'    │   true    │                'room8-3 Motion+ 77EC'                │ 'physicalOrChassis' │
+│   606   │   'EUI64-0080E10300037B7E'   │  '952675'  │   'present'    │   true    │                'room6-3 Motion+ 7B7E'                │ 'physicalOrChassis' │
+│   607   │   'EUI64-0080E103000379FD'   │  '952675'  │   'present'    │   true    │                'room2-1 Motion+ 79FD'                │ 'physicalOrChassis' │
+│   608   │   'EUI64-0080E103000376AA'   │  '952675'  │   'present'    │   true    │               'room10-2 Motion+ 76AA'                │ 'physicalOrChassis' │
+│   609   │   'EUI64-0080E10300037FE6'   │  '952675'  │    'shadow'    │   true    │                'room9-3 Motion+ 7FE6'                │ 'physicalOrChassis' │
+│   610   │   'EUI64-0080E10300044629'   │  '952675'  │   'present'    │   true    │                'room9-1 Motion+ 4629'                │ 'physicalOrChassis' │
+│   611   │   'EUI64-0080E10300043664'   │  '952675'  │   'present'    │   true    │                'room2-2 Motion+ 3664'                │ 'physicalOrChassis' │
+│   612   │   'EUI64-0080E10300037A9D'   │  '952675'  │   'present'    │   true    │                'room3-2 Motion+ 7A9D'                │ 'physicalOrChassis' │
+│   613   │   'EUI64-0080E10300037896'   │  '952675'  │   'present'    │   true    │                'room2-3 Motion+ 7896'                │ 'physicalOrChassis' │
+│   614   │   'EUI64-0080E103000447D3'   │  '952675'  │   'present'    │   true    │                'room5-3 Motion+ 47D3'                │ 'physicalOrChassis' │

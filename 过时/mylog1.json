@@ -1,0 +1,216 @@
+[
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573176377796,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573176766090,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    }
+,
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573177498952,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573178037337,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573178038855,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573178826979,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573179109038,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573180708241,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573180965193,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    }
+,
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573182159815,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573182508152,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573183309189,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573183392770,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573183977506,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573184787503,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573185483286,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    }
+,
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573193278511,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    }
+,
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573195976801,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573196221653,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573196525175,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573197052797,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    }
+,
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573199486682,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573199538823,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573202093427,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    },
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573202181654,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "occupied"
+        }
+    }
+,
+    {
+        "resourceType": "SampleAsset",
+        "sampleTime": 1573205907066,
+        "assetState": {
+            "resourceType": "AssetState",
+            "name": "free"
+        }
+    }
+]

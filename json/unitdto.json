@@ -1,0 +1,5555 @@
+{
+    "messageType": "GetUnitsResponse",
+    "responseCode": {
+        "resourceType": "ResponseCode",
+        "name": "success"
+    },
+    "timeSent": 1573113498417,
+    "list": [{
+        "resourceType": "UnitDTO",
+        "timeCreated": 1573113498417,
+        "unitAddress": {
+            "resourceType": "UnitAddress",
+            "did": "EUI64-0090DAFFFF00586C",
+            "locationId": "229349",
+            "serverDid": "EUI64-0090DAFFFF0040AA"
+        },
+        "productType": "0090DA0301020421",
+        "lifeCycleState": {
+            "resourceType": "LifeCycleState",
+            "name": "present"
+        },
+        "isChassis": true,
+        "chassisDid": "EUI64-0090DAFFFF00586C",
+        "unitTypeFixed": {
+            "resourceType": "UnitType",
+            "name": "remoteGateway"
+        },
+        "isNameSetByUser": false,
+        "defaultNameSetBySystem": "RemoteGateway (EUI64-0090DAFFFF00586C)",
+        "userId": "653498331@qq.com",
+        "unitAcl": {
+            "resourceType": "UnitAcl",
+            "name": "viewer"
+        },
+        "subunitIdentifier": 0
+    }],
+    "locationAddress": {
+        "resourceType": "LocationAddress",
+        "locationId": "229349",
+        "serverDid": "EUI64-0090DAFFFF0040AA"
+    }
+}
+
+{
+    "messageType": "GetUnitsResponse",
+    "responseCode": {
+        "resourceType": "ResponseCode",
+        "name": "success"
+    },
+    "timeSent": 1573113498419,
+    "list": [{
+        "resourceType": "UnitDTO",
+        "timeCreated": 1573113498419,
+        "unitAddress": {
+            "resourceType": "UnitAddress",
+            "did": "EUI64-0090DAFFFF00738C",
+            "locationId": "213806",
+            "serverDid": "EUI64-0090DAFFFF0040C6"
+        },
+        "productType": "0090DA0301020421",
+        "lifeCycleState": {
+            "resourceType": "LifeCycleState",
+            "name": "present"
+        },
+        "isChassis": true,
+        "chassisDid": "EUI64-0090DAFFFF00738C",
+        "unitTypeFixed": {
+            "resourceType": "UnitType",
+            "name": "remoteGateway"
+        },
+        "isNameSetByUser": false,
+        "defaultNameSetBySystem": "RemoteGateway (EUI64-0090DAFFFF00738C)",
+        "userId": "653498331@qq.com",
+        "unitAcl": {
+            "resourceType": "UnitAcl",
+            "name": "viewer"
+        },
+        "subunitIdentifier": 0
+    }],
+    "locationAddress": {
+        "resourceType": "LocationAddress",
+        "locationId": "213806",
+        "serverDid": "EUI64-0090DAFFFF0040C6"
+    }
+}
+
+{
+    "messageType": "GetUnitsResponse",
+    "responseCode": {
+        "resourceType": "ResponseCode",
+        "name": "success"
+    },
+    "timeSent": 1573113856057,
+    "list": [{
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854414,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CA0F-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CA0F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp CA0F-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854414,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030004438D",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010521",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E1030004438D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2 MotionPlus",
+            "defaultNameSetBySystem": "Motion+ 438D",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854415,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA94E89",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA94E89",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "ROCKY",
+            "defaultNameSetBySystem": "Presence Mini 4E89",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854416,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE59F26C-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE59F26C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b4",
+            "defaultNameSetBySystem": "Motion F26C-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854416,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792F82-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792F82",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 2F82-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854417,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-17B30675BC5849C2AD81F2448E772705",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Jasmine",
+            "defaultNameSetBySystem": "Desk 2705",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854417,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-E5F317A5894141F5984B826F1084F9A5",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Director",
+            "defaultNameSetBySystem": "Area F9A5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854418,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792C63-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792C63",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 2C63-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854418,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA95289",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA95289",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b13",
+            "defaultNameSetBySystem": "Presence Mini 5289",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854419,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792F82-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792F82",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b8",
+            "defaultNameSetBySystem": "Motion 2F82-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854419,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931D9-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931D9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b9",
+            "defaultNameSetBySystem": "Motion 31D9-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854420,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793068-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793068",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 3068-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854420,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793144-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793144",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "sail",
+            "defaultNameSetBySystem": "Motion 3144-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854420,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030004438D-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030004438D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Motion 438D-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854431,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030004438D-5-Illuminance",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030004438D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "illuminance"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Illuminance 438D-5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854432,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793380-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793380",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 3380-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854432,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79310D",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE79310D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b12",
+            "defaultNameSetBySystem": "Presence Mini 310D",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854433,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-66B4F6CF2A6A4D679E6C03592CB01D9C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Miss",
+            "defaultNameSetBySystem": "Desk 1D9C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854433,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-C1D1082713D14AF2B68B58A7577E16F8",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Sail",
+            "defaultNameSetBySystem": "Desk 16F8",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854434,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE59F26C-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE59F26C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp F26C-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854434,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE59F28A-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE59F28A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b6",
+            "defaultNameSetBySystem": "Motion F28A-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854435,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-D6332899BDEC4AC6804B8B201E394EFB",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-B5",
+            "defaultNameSetBySystem": "Desk 4EFB",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854435,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300056EB7",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010521",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E10300056EB7",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1",
+            "defaultNameSetBySystem": "Motion+ 6EB7",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854436,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp DDDB-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854436,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-DFD89A2501BD459CB6A7D80B2369D588",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Rocky",
+            "defaultNameSetBySystem": "Desk D588",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854437,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7932C2",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE7932C2",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b14",
+            "defaultNameSetBySystem": "Presence Mini 32C2",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854437,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030004438D-10-SoundPressureLevel",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030004438D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "soundPressureLevel"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Sound Pressure Level 438D-10",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854438,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9528F",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA9528F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "M2-B11",
+            "defaultNameSetBySystem": "Presence Mini 528F",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854439,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9-10-SoundPressureLevel",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "soundPressureLevel"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Sound Pressure Level CFC9-10",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854439,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300054D5A-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300054D5A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2",
+            "defaultNameSetBySystem": "Motion 4D5A-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854439,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79305F-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE79305F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 305F-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854440,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792C63-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792C63",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Motion 2C63-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854440,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D76-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792D76",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "fly",
+            "defaultNameSetBySystem": "Motion 2D76-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854441,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CA0F-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CA0F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "frank",
+            "defaultNameSetBySystem": "Motion CA0F-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854472,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931BA-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931BA",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "yang",
+            "defaultNameSetBySystem": "Motion 31BA-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854472,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931BA",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE7931BA",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "yang",
+            "defaultNameSetBySystem": "Presence Mini 31BA",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854473,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300054D5A-3-Humd",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300054D5A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "humidity"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Humidity 4D5A-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854473,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7932C2-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7932C2",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b14",
+            "defaultNameSetBySystem": "Motion 32C2-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854474,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA950FF-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA950FF",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "xiaohua",
+            "defaultNameSetBySystem": "Motion 50FF-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854474,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79333A-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE79333A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 333A-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854475,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79305F-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE79305F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b1",
+            "defaultNameSetBySystem": "Motion 305F-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854475,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931D6-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931D6",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 31D6-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854475,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE59F28A",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE59F28A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b6",
+            "defaultNameSetBySystem": "Presence Mini F28A",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854476,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-86D380F353BC41DFA6A04AE4356ADDB9",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "desk6",
+            "defaultNameSetBySystem": "Desk DDB9",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854477,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-0A47A54E36814DF7B8D4899633753E45",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b14",
+            "defaultNameSetBySystem": "Desk 3E45",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854477,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-1EF785EA2F804E9D896540B50BE27989",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Finance",
+            "defaultNameSetBySystem": "Area 7989",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854477,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030004438D-3-Humd",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030004438D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "humidity"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Humidity 438D-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854478,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9527C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA9527C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b10",
+            "defaultNameSetBySystem": "Presence Mini 527C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854479,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79310D-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE79310D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b12",
+            "defaultNameSetBySystem": "Motion 310D-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854479,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931B3",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE7931B3",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "david",
+            "defaultNameSetBySystem": "Presence Mini 31B3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854480,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005DFA9-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005DFA9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "lyy",
+            "defaultNameSetBySystem": "Motion DFA9-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854480,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-87F4D06B7E0948E5BD616ADC93E1653C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Danny",
+            "defaultNameSetBySystem": "Desk 653C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854511,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300053BA3-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300053BA3",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 3BA3-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854512,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931B3-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931B3",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "david",
+            "defaultNameSetBySystem": "Motion 31B3-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854512,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010522",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Lobby Comfort",
+            "defaultNameSetBySystem": "Comfort DDDB",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854513,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA95255-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA95255",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "lukas",
+            "defaultNameSetBySystem": "Motion 5255-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854513,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-7E86CD13BA75441AB159990F58C6E441",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Frank",
+            "defaultNameSetBySystem": "Desk E441",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854514,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-6102E5D373C14F16B11D52E64AA13AD8",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Xiaohua",
+            "defaultNameSetBySystem": "Desk 3AD8",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854514,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA950FF",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA950FF",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "xiaohua",
+            "defaultNameSetBySystem": "Presence Mini 50FF",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854515,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9-6-Pressure",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "pressure"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Atmospheric pressure CFC9-6",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854516,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-6B664BB93FC6425D8D91FF689E3B023C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "lyy",
+            "defaultNameSetBySystem": "Desk 023C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854516,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-B1287F969A0B48D3ADC6C43FF186F561",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Accouting",
+            "defaultNameSetBySystem": "Area F561",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854517,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005D584",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010524",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E1030005D584",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "SONG",
+            "defaultNameSetBySystem": "Presence D584",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854517,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D84-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792D84",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 2D84-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854518,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-F14971C4AEE340BE855CDBBCA2255E86",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b13",
+            "defaultNameSetBySystem": "Desk 5E86",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854518,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79310D-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE79310D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 310D-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854518,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA950FF-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA950FF",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 50FF-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854519,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB-10-SoundPressureLevel",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "soundPressureLevel"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Sound Pressure Level DDDB-10",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854519,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D84-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792D84",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "jasmine",
+            "defaultNameSetBySystem": "Motion 2D84-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854520,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7932C2-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7932C2",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 32C2-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854520,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D88-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792D88",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 2D88-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854520,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-031C520E7DC443529A4868043AD35533",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-B3",
+            "defaultNameSetBySystem": "Desk 5533",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854551,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9528F-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA9528F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 528F-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854552,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9527C-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA9527C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b10",
+            "defaultNameSetBySystem": "Motion 527C-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854552,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931D9-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931D9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 31D9-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854552,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300056EB7-3-Humd",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300056EB7",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "humidity"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Humidity 6EB7-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854553,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793144-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793144",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 3144-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854553,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79333A-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE79333A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "miss",
+            "defaultNameSetBySystem": "Motion 333A-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854554,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300054D5A",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010521",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "shadow"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E10300054D5A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2",
+            "defaultNameSetBySystem": "Motion+ 4D5A",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854555,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931DA-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931DA",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b7",
+            "defaultNameSetBySystem": "Motion 31DA-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854555,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-615551E71791446F906951B255950798",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "CEO",
+            "defaultNameSetBySystem": "Area 0798",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854556,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931DA",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE7931DA",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b7",
+            "defaultNameSetBySystem": "Presence Mini 31DA",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854556,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005DFA9-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005DFA9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp DFA9-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854557,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-1FB8DDD7E6214C6EB50530B5CCD78E2E",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b6",
+            "defaultNameSetBySystem": "Desk 8E2E",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854557,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005D584-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005D584",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp D584-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854557,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-34ED0328FBBC4F788F06CF3D8112DF12",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Maro",
+            "defaultNameSetBySystem": "Desk DF12",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854558,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793144",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE793144",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "SAIL",
+            "defaultNameSetBySystem": "Presence Mini 3144",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854558,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-19C268C8DED14228BAFFC299DD804BA8",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1",
+            "defaultNameSetBySystem": "Desk 4BA8",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854559,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931D9",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE7931D9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b9",
+            "defaultNameSetBySystem": "Presence Mini 31D9",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854559,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-1BB775C6D1374C54A397AC5FEF7EBB4B",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "building"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Automatically Generated Building",
+            "defaultNameSetBySystem": "Building BB4B",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854560,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931DA-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931DA",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 31DA-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854560,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300054D5A-5-Illuminance",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300054D5A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "illuminance"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Illuminance 4D5A-5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854561,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931B3-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931B3",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 31B3-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854580,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793380",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE793380",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b5",
+            "defaultNameSetBySystem": "Presence Mini 3380",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854611,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp CFC9-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854612,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792F82",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE792F82",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b8",
+            "defaultNameSetBySystem": "Presence Mini 2F82",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854612,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005DFA9",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010524",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E1030005DFA9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "LYY",
+            "defaultNameSetBySystem": "Presence DFA9",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854613,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931D6",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE7931D6",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "danny",
+            "defaultNameSetBySystem": "Presence Mini 31D6",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854613,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-9CF60530C0CA45BC96FD5C5D5C3D3381",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b11",
+            "defaultNameSetBySystem": "Desk 3381",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854614,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-DA896A0B011B4403B8AB3BDAC6ACE143",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Lobby",
+            "defaultNameSetBySystem": "Area E143",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854614,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-53F00CCD8B434B20BD9E98C7671451E6",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "hank",
+            "defaultNameSetBySystem": "Desk 51E6",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854615,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA94E89-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA94E89",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "rocky",
+            "defaultNameSetBySystem": "Motion 4E89-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854615,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9528F-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA9528F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b11",
+            "defaultNameSetBySystem": "Motion 528F-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854616,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-749710AB28354584A476D553F4B8315B",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "FLy",
+            "defaultNameSetBySystem": "Desk 315B",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854616,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-3B502D7A8DAF442EB44400F4FAEF9D4B",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b9",
+            "defaultNameSetBySystem": "Desk 9D4B",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854616,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D76-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792D76",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 2D76-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854617,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CA0F",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010524",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E1030005CA0F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "FRANK",
+            "defaultNameSetBySystem": "Presence CA0F",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854617,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9527C-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA9527C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 527C-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854618,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-AF5BCCF1FEC9418DB1419B476465D013",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "areaGroup"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Automatically Generated Group",
+            "defaultNameSetBySystem": "Asset D013",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854618,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300053BA3",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010524",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E10300053BA3",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "HANK",
+            "defaultNameSetBySystem": "Presence 3BA3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854619,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300056EB7-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300056EB7",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 6EB7-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854619,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-4C2EF451774C418C900E8F397C3CF4FC",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b12",
+            "defaultNameSetBySystem": "Desk F4FC",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854619,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010522",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Marketing Comfort",
+            "defaultNameSetBySystem": "Comfort CFC9",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854620,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793380-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793380",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b5",
+            "defaultNameSetBySystem": "Motion 3380-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854620,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-E86236F580B14B81AD7C6879289BDF91",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2",
+            "defaultNameSetBySystem": "Desk DF91",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854631,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-A9899341F08A49279C04EAC3E6C05094",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "bruce",
+            "defaultNameSetBySystem": "Desk 5094",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854632,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9510F",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA9510F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b2",
+            "defaultNameSetBySystem": "Presence Mini 510F",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854633,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300056EB7-10-SoundPressureLevel",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300056EB7",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "soundPressureLevel"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Sound Pressure Level 6EB7-10",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854633,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300054D5A-10-SoundPressureLevel",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300054D5A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "soundPressureLevel"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Sound Pressure Level 4D5A-10",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854634,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300056EB7-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300056EB7",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1",
+            "defaultNameSetBySystem": "Motion 6EB7-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854634,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030004438D-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030004438D",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 438D-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854634,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-CF71C2CBFA0345C5A79394460D3182C8",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b8",
+            "defaultNameSetBySystem": "Desk 82C8",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854635,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-7EAA0EEAD99A4B98A5BBEB121A23396E",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Yang",
+            "defaultNameSetBySystem": "Desk 396E",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854635,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793068-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793068",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Motion 3068-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854636,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-A695BB3684DF40CB96ED131621E1C207",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Lukas",
+            "defaultNameSetBySystem": "Desk C207",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854636,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB-3-Humd",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "humidity"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Humidity DDDB-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854636,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793047",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE793047",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "maro",
+            "defaultNameSetBySystem": "Presence Mini 3047",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854637,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300053BA3-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300053BA3",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "hank",
+            "defaultNameSetBySystem": "Motion 3BA3-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854637,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005D584-4-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005D584",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "song",
+            "defaultNameSetBySystem": "Motion D584-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854637,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793047-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793047",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 3047-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854638,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D88-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE792D88",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "bruce",
+            "defaultNameSetBySystem": "Motion 2D88-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854638,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA95289-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA95289",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 5289-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854639,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-6D26561B0CD84C7A8F0D3284372D27B5",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "floor"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Sugarcube",
+            "defaultNameSetBySystem": "Floor 27B5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854639,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9-4-CO2",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "carbonDioxide"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Carbon Dioxide CFC9-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854639,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA94E89-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA94E89",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 4E89-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854640,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-178FF8D80F1949C3A40492C8EFB05305",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-B4",
+            "defaultNameSetBySystem": "Desk 5305",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854640,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300056EB7-5-Illuminance",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300056EB7",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "illuminance"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Illuminance 6EB7-5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854640,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-4AB25BF9F168411A8D8FD4080193A82C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b7",
+            "defaultNameSetBySystem": "Desk A82C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854661,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E10300054D5A-3-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E10300054D5A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 4D5A-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854662,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-78E2909EDEE948B6AF89C9FA1749E66A",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Meeting Room2",
+            "defaultNameSetBySystem": "Area E66A",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854662,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D76",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE792D76",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "FLY",
+            "defaultNameSetBySystem": "Presence Mini 2D76",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854663,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-F13009DCFE4B449F836DE9FA9B256361",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b10",
+            "defaultNameSetBySystem": "Desk 6361",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854663,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9-3-Humd",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "humidity"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Humidity CFC9-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854664,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE59F26C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE59F26C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b4",
+            "defaultNameSetBySystem": "Presence Mini F26C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854671,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA95255",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-90FD9FFFFEA95255",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "lucas",
+            "defaultNameSetBySystem": "Presence Mini 5255",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854672,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9510F-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA9510F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 510F-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854672,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0090DAFFFF00586C",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301020423",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "gateway"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Gateway 586C",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854673,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793047-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE793047",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "maro",
+            "defaultNameSetBySystem": "Motion 3047-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854673,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE59F28A-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE59F28A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp F28A-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854674,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030005CFC9-5-VOC",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030005CFC9",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "volatileOrganicCompound"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Volatile Organic Compounds CFC9-5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854674,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE793068",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE793068",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b3",
+            "defaultNameSetBySystem": "Presence Mini 3068",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854675,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-5F0E9B4BCE134239BF20A4F43084643D",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Meeting Room1",
+            "defaultNameSetBySystem": "Area 643D",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854675,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D88",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE792D88",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "BRUCE",
+            "defaultNameSetBySystem": "Presence Mini 2D88",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854675,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-64498569821D4EFF845062AA57CDB03D",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-B1",
+            "defaultNameSetBySystem": "Desk B03D",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854676,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA9510F-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA9510F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b2",
+            "defaultNameSetBySystem": "Motion 510F-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854676,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA95255-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA95255",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 5255-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854677,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931D6-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931D6",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "danny",
+            "defaultNameSetBySystem": "Motion 31D6-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854677,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE7931BA-4-Temp",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-D0CF5EFFFE7931BA",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "temp"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Temp 31BA-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854677,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB-4-CO2",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "carbonDioxide"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Carbon Dioxide DDDB-4",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854678,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-A597FD362AF54D8ABDA32F0CCE3C45C3",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "song",
+            "defaultNameSetBySystem": "Desk 45C3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854678,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-66E93FDDB7684D61A19050A55D6F7432",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "David",
+            "defaultNameSetBySystem": "Desk 7432",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854678,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-75372A36E77840389BB3183F710A4111",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "desk"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-B2",
+            "defaultNameSetBySystem": "Desk 4111",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854679,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "UUID-B0DD1D3C4A5E405293476E061A3243C5",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0090DAFFFF00586C",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "area"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "Marketing",
+            "defaultNameSetBySystem": "Area 43C5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854703,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB-5-VOC",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "volatileOrganicCompound"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Volatile Organic Compounds DDDB-5",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854703,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-90FD9FFFFEA95289-3-Motion",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-90FD9FFFFEA95289",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "inputMotion"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m2-b13",
+            "defaultNameSetBySystem": "Motion 5289-3",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854704,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792C63",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "shadow"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE792C63",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "desk6 PresenceMini",
+            "defaultNameSetBySystem": "Presence Mini 2C63",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854704,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE792D84",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE792D84",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "JASMINE",
+            "defaultNameSetBySystem": "Presence Mini 2D84",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854705,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79333A",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE79333A",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "miss",
+            "defaultNameSetBySystem": "Presence Mini 333A",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854705,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79305F",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "productType": "0090DA0301010532",
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "present"
+            },
+            "isChassis": true,
+            "chassisDid": "EUI64-D0CF5EFFFE79305F",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "physicalOrChassis"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": true,
+            "nameSetByUser": "m1-b1",
+            "defaultNameSetBySystem": "Presence Mini 305F",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            },
+            "subunitIdentifier": 0
+        },
+        {
+            "resourceType": "UnitDTO",
+            "timeCreated": 1573113854706,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-0080E1030002DDDB-6-Pressure",
+                "locationId": "229349",
+                "serverDid": "EUI64-0090DAFFFF00586C"
+            },
+            "lifeCycleState": {
+                "resourceType": "LifeCycleState",
+                "name": "subUnit"
+            },
+            "isChassis": false,
+            "chassisDid": "EUI64-0080E1030002DDDB",
+            "unitTypeFixed": {
+                "resourceType": "UnitType",
+                "name": "pressure"
+            },
+            "unitTypeConfigured": {
+                "resourceType": "UnitType",
+                "name": "unknown"
+            },
+            "isNameSetByUser": false,
+            "defaultNameSetBySystem": "Atmospheric pressure DDDB-6",
+            "userId": "653498331@qq.com",
+            "unitAcl": {
+                "resourceType": "UnitAcl",
+                "name": "viewer"
+            }
+        }
+    ],
+    "locationAddress": {
+        "resourceType": "LocationAddress",
+        "locationId": "229349",
+        "serverDid": "EUI64-0090DAFFFF00586C"
+    }
+}

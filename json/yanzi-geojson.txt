@@ -1,0 +1,88 @@
+The yanzi geojson format is an extension to the common geoJSON format to add typing and naming information in a standardized way.
+The Yanzi format specifies three requirements.
+
+1: Stable ID requirement
+1.1 All features representing a room, area, chair, table, conference room etc. MUST have the top level "id" key set to a globally(within location) unique string.
+1.2 The id must be stable when the model is updated.
+
+2. Known type requirement
+2.1 All features with an ID and all features supposed to be rendered (walls, etc) must have a property named "type" with one of the known types in the table below.
+
+3. Floor polygon
+3.1 There must exist a feature that is a polygon or multipolygon and has the floor type.
+
+Fields defined by the yanzi standard:
+...
+{
+  "type":"Feature",
+  "id":"181a32b8-1fb0-402e-9d96-5011e4bdc6a7", // Example unique id
+  "geometry": ...
+  "properties":{
+    "type": "area.room.conference", // Required (see 2.1)
+    "name": "Conference Room Saturnus", // Optional, recommended
+    "address": "1R13", // Optional
+    "parent": "261a12b8-1fb0-404e-9d06-5011e4bd11f9" // Optional
+  }
+}
+
+Supported types:
+area                     Abstract topclass for any type of area
+area.floor               The background polygon.
+area.room                A generic room
+area.room.bathroom       A bathroom
+area.room.conference     A conference room
+area.hallway             A hallway
+area.section             Open area, rendered with different color. If exist, render this section in this color with no border.
+area.inaccessible        An inaccessible area
+
+fixture.door             A door
+fixture.elevator         An elevator
+fixture.stairs           Stairs
+fixture.step             A single step polygon
+fixture.wall             A wall
+fixture.wall.partition   A partition (rendered as line)
+fixture.tv               A tv
+
+furniture.chair          A chair
+furniture.desk           A desk
+furniture.counter        A countertop
+furniture.table          A table
+
+# A poi(point of interest) is a single point that will be rendered with an icon.
+poi.printer              A printer
+poi.entrance             A building/floor entrance
+
+poi.device.sensor               A placed or planned sensor
+
+
+Parent reference
+A polygon might optionally indicate a hierarical parent through the parent property. The value of the property must be the ID of another feature in this geojson file.
+The parent should be the immidiate parent. For instance, the hierarical parent of a "furniture.chair" might be a specific "area.room.conference".
+If the parent is not specified, implementations might calculate hierarchies from the geometries in the file.
+
+Extended properties for poi.device.sensor
+The poi.device.sensor type is used by Yanzi to indicate positions of planned or placed sensors. The following additional properties is understood by the format parser.
+All poi.* types MUST be a point geometry.
+...
+{
+  "type":"Feature",
+  "id":"181a32b8-1fb0-402e-9d96-5011e4bdc6a7", // Example unique id
+  "geometry": ... // Must be a point
+  "properties":{
+    "type": "poi.device.sensor", // Required (see 2.1)
+    "name": "Presidential bedroom moisture sensor 4",
+    "parent": "181a32b8-1fb0-402e-9d96-5011e4bdc6a5", // Optional
+    ...
+
+    // Extended props
+    "typeprops": {
+      "productType": "00414CDA", // Yanzi product type number
+    },
+
+    // These key values will be imported as-is into the custom properties of the unit.
+    // Values must be strings.
+    "custom": {
+      "key": "value"
+    }
+  }
+}

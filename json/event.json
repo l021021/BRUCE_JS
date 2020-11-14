@@ -1,0 +1,83 @@
+{
+    "messageType": "SubscribeData",
+    "timeSent": 1573189554899,
+    "list": [
+        {
+            "resourceType": "EventDTO",
+            "timeOfEvent": 1573189554071,
+            "list": [
+                {
+                    "resourceType": "LocationDTO",
+                    "timeCreated": 1573189554071,
+                    "locationAddress": {
+                        "resourceType": "LocationAddress",
+                        "locationId": "783825",
+                        "serverDid": "EUI64-0090DAFFFF00738A"
+                    },
+                    "timeModified": 1568248667254,
+                    "accountId": "338354",
+                    "name": "Test26(PF11)",
+                    "gwdid": "EUI64-0090DAFFFF00738A",
+                    "linkServerDid": "EUI64-0090DAFFFF0040AA",
+                    "isMultiLocation": false
+                }
+            ],
+            "eventType": {
+                "resourceType": "EventType",
+                "name": "locationChanged"
+            }
+        }
+    ]
+}
+{
+    "messageType": "SubscribeData",
+    "timeSent": 1573289450449,
+    "list": [
+        {
+            "resourceType": "EventDTO",
+            "timeOfEvent": 1573289449744,
+            "unitAddress": {
+                "resourceType": "UnitAddress",
+                "did": "EUI64-D0CF5EFFFE79350F",
+                "locationId": "797296",
+                "serverDid": "EUI64-0090DAFFFF006A98"
+            },
+            "eventType": {
+                "resourceType": "EventType",
+                "name": "physicalDeviceIsNowDOWN"
+            }
+        }
+    ]
+}
+
+{
+    "messageType": "SubscribeData",
+    "timeSent": 1573305475464,
+    "list": [
+        {
+            "resourceType": "EventDTO",
+            "timeOfEvent": 1573305474821,
+            "list": [
+                {
+                    "resourceType": "LocationDTO",
+                    "timeCreated": 1573305474821,
+                    "locationAddress": {
+                        "resourceType": "LocationAddress",
+                        "locationId": "499735",
+                        "serverDid": "EUI64-0090DAFFFF006438"
+                    },
+                    "timeModified": 1572501203481,
+                    "accountId": "220781",
+                    "name": "hzft",
+                    "gwdid": "EUI64-0090DAFFFF006438",
+                    "linkServerDid": "EUI64-0090DAFFFF0040AA",
+                    "isMultiLocation": false
+                }
+            ],
+            "eventType": {
+                "resourceType": "EventType",
+                "name": "locationChanged"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "messageType": "SubscribeData",
+    "timeSent": 1573042992713,
+    "list": [
+        {
+            "resourceType": "SampleList",
+            "dataSourceAddress": {
+                "resourceType": "DataSourceAddress",
+                "did": "EUI64-0080E103000435B0-10-SoundPressureLevel",
+                "locationId": "797296",
+                "serverDid": "EUI64-0090DAFFFF006A98",
+                "variableName": {
+                    "resourceType": "VariableName",
+                    "name": "soundPressureLevel"
+                },
+                "instanceNumber": 0
+            },
+            "list": [
+                {
+                    "resourceType": "SlotDTO",
+                    "timeCreated": 1573042991699,
+                    "sampleTime": 1573042200000,
+                    "maxValue": 3818,
+                    "maxTime": 1573042383999,
+                    "minValue": 3818,
+                    "minTime": 1573042383999,
+                    "aggregateValue": 3818,
+                    "numberOfValues": 1,
+                    "slotSize": {
+                        "resourceType": "SlotSize",
+                        "name": "min10"
+                    }
+                }
+            ]
+        }
+    ]
+}

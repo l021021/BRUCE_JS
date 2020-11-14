@@ -1,0 +1,34 @@
+{
+    "messageType": "SubscribeData",
+    "timeSent": 1573011602043,
+    "list": [{
+        "resourceType": "SampleList",
+        "dataSourceAddress": {
+            "resourceType": "DataSourceAddress",
+            "did": "UUID-11A1874E71FA412FA6D4284A490EB5CA",
+            "locationId": "797296",
+            "serverDid": "EUI64-0090DAFFFF006A98",
+            "variableName": {
+                "resourceType": "VariableName",
+                "name": "unitState"
+            },
+            "instanceNumber": 0
+        },
+        "list": [{
+            "resourceType": "SampleEndOfSlot",
+            "sampleTime": 1573011600000,
+            "slotSize": {
+                "resourceType": "SlotSize",
+                "name": "min10"
+            },
+            "sample": {
+                "resourceType": "SampleAsset",
+                "sampleTime": 1573011560141,
+                "assetState": {
+                    "resourceType": "AssetState",
+                    "name": "free"
+                }
+            }
+        }]
+    }]
+}

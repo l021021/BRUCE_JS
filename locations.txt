@@ -1,0 +1,37 @@
+│    0    │  '74365'   │ 'EUI64-0090DAFFFF0040C7' │ '352024'  │     'Kerry Properties'      │ 'EUI64-0090DAFFFF0070EA' │   0   │   107    │     14      │   true   │
+│    1    │  '221376'  │ 'EUI64-0090DAFFFF0040C7' │ '387102'  │         'Kerry SKC'         │ 'EUI64-0090DAFFFF006A16' │   0   │    26    │      3      │   true   │
+│    2    │  '897737'  │ 'EUI64-0090DAFFFF0040C7' │ '300769'  │    'Test17(wafer-test)'     │ 'EUI64-0090DAFFFF006A4C' │   0   │    54    │      9      │   true   │
+│    3    │  '447224'  │ 'EUI64-0090DAFFFF0040C7' │ '130626'  │ 'Astra Zeneca P1 Floor 3-A' │ 'EUI64-0090DAFFFF006A6A' │   0   │    49    │      5      │   true   │
+│    4    │  '305026'  │ 'EUI64-0090DAFFFF0040C7' │ '324291'  │   'CHC NAVIGATION(HUACE)'   │ 'EUI64-0090DAFFFF0071D0' │   0   │   267    │     65      │   true   │
+│    5    │  '274189'  │ 'EUI64-0090DAFFFF0040C7' │ '181010'  │           'Sunon'           │ 'EUI64-0090DAFFFF0069DA' │   0   │   229    │     32      │   true   │
+│    6    │  '507828'  │ 'EUI64-0090DAFFFF0040C7' │ '393038'  │ 'Astra Zeneca P1 Floor 4-B' │ 'EUI64-0090DAFFFF006A34' │   0   │    21    │      3      │   true   │
+│    7    │  '329312'  │ 'EUI64-0090DAFFFF0040C7' │ '269689'  │ 'Astra Zeneca P1 Floor 5-A' │ 'EUI64-0090DAFFFF006A3A' │   0   │    38    │      6      │   true   │
+│    8    │  '60358'   │ 'EUI64-0090DAFFFF0040AA' │ '170182'  │ 'Astra Zeneca P1 Floor 2-B' │ 'EUI64-0090DAFFFF0069A2' │   0   │   186    │     32      │   true   │
+│    9    │  '88252'   │ 'EUI64-0090DAFFFF0040AA' │ '341881'  │ 'Astra Zeneca P1 Floor 2-A' │ 'EUI64-0090DAFFFF00699C' │   0   │    95    │     10      │   true   │
+│   10    │  '254896'  │ 'EUI64-0090DAFFFF0040AA' │ '313420'  │ 'TurnOne - Vanke Dongguan'  │ 'EUI64-0090DAFFFF007154' │   0   │    62    │      4      │   true   │
+│   11    │  '108899'  │ 'EUI64-0090DAFFFF0040AA' │ '233014'  │      'Wafer-yokogawa'       │ 'EUI64-0090DAFFFF006924' │   0   │    26    │      3      │   true   │
+│   12    │  '157285'  │ 'EUI64-0090DAFFFF0040AA' │ '245277'  │      'Test41-QuanCan'       │ 'EUI64-0090DAFFFF007326' │   0   │    22    │      3      │   true   │
+│   13    │  '797296'  │ 'EUI64-0090DAFFFF0040AA' │ '216978'  │           'Novah'           │ 'EUI64-0090DAFFFF006A98' │   0   │   632    │     97      │   true   │
+│   14    │  '229349'  │ 'EUI64-0090DAFFFF0040AA' │ '294988'  │         'Fangtang'          │ 'EUI64-0090DAFFFF00586C' │   0   │   177    │     35      │   true   │
+│   15    │  '652990'  │ 'EUI64-0090DAFFFF0040AA' │ '359599'  │ 'Astra Zeneca P1 Floor 3-C' │ 'EUI64-0090DAFFFF006A0A' │   0   │    21    │      3      │   true   │
+│   16    │  '503370'  │ 'EUI64-0090DAFFFF0040AA' │ '283191'  │      'Vanke Shanghai'       │ 'EUI64-0090DAFFFF007266' │   0   │   258    │     50      │   true   │
+│   17    │  '402837'  │ 'EUI64-0090DAFFFF0040AA' │ '173139'  │         'TuoWen_15'         │ 'EUI64-0090DAFFFF006AA2' │   0   │   216    │     29      │   true   │
+│   18    │  '668617'  │ 'EUI64-0090DAFFFF0040AA' │ '100401'  │ 'Astra Zeneca P1 Floor 4-A' │ 'EUI64-0090DAFFFF0069A0' │   0   │    58    │     10      │   true   │
+│   19    │  '608739'  │ 'EUI64-0090DAFFFF0040AA' │ '279248'  │ 'Astra Zeneca P1 Floor 5-B' │ 'EUI64-0090DAFFFF006A7A' │   0   │    17    │      4      │   true   │
+│   20    │  '268429'  │ 'EUI64-0090DAFFFF0040AA' │ '122355'  │         'TuoWen_17'         │ 'EUI64-0090DAFFFF00695C' │   0   │   219    │     27      │   true   │
+│   21    │  '306571'  │ 'EUI64-0090DAFFFF0040AA' │ '384019'  │      'Test22（Leanon)'      │ 'EUI64-0090DAFFFF00692E' │   0   │    83    │     17      │   true   │
+│   22    │  '996052'  │ 'EUI64-0090DAFFFF0040AA' │ '351001'  │      'huawei-2-e2-3f'       │ 'EUI64-0090DAFFFF00744A' │   0   │    14    │      3      │   true   │
+│   23    │  '185308'  │ 'EUI64-0090DAFFFF0040AA' │ '118243'  │ 'Astra Zeneca P1 Floor 1-B' │ 'EUI64-0090DAFFFF0068F2' │   0   │    29    │      6      │   true   │
+│   24    │  '805136'  │ 'EUI64-0090DAFFFF0040AA' │ '170388'  │    'Test40 （Turnone）'     │ 'EUI64-0090DAFFFF006922' │   0   │    30    │      5      │   true   │
+│   25    │  '952675'  │ 'EUI64-0090DAFFFF0040AA' │ '316573'  │         'TuoWen_16'         │ 'EUI64-0090DAFFFF005E6C' │   0   │   219    │     29      │   true   │
+│   26    │  '83561'   │ 'EUI64-0090DAFFFF0040AA' │ '182118'  │ 'Astra Zeneca P1 Floor 3-B' │ 'EUI64-0090DAFFFF0073B8' │   0   │    95    │     10      │   true   │
+│   27    │  '912706'  │ 'EUI64-0090DAFFFF0040AA' │ '163805'  │      'Huawei-3-M6-3F'       │ 'EUI64-0090DAFFFF0071AA' │   0   │    23    │      6      │   true   │
+│   28    │  '545672'  │ 'EUI64-0090DAFFFF0040AA' │ '367768'  │          'KPCPMSH'          │ 'EUI64-0090DAFFFF00691A' │   0   │    39    │      6      │   true   │
+│   29    │  '521209'  │ 'EUI64-0090DAFFFF0040AA' │ '355264'  │      'Wafer Shanghai'       │ 'EUI64-0090DAFFFF006AA4' │   0   │    62    │     11      │   true   │
+│   30    │  '190773'  │ 'EUI64-0090DAFFFF0040AA' │ '135643'  │     'Envison-Meetings'      │ 'EUI64-0090DAFFFF0063DE' │   0   │   148    │      6      │   true   │
+│   31    │  '938433'  │ 'EUI64-0090DAFFFF0040AA' │ '278098'  │ 'Astra Zeneca P1 Floor 1-A' │ 'EUI64-0090DAFFFF0069CA' │   0   │   116    │     18      │   true   │
+│   32    │  '328916'  │ 'EUI64-0090DAFFFF0040AA' │ '201374'  │         'TuoWen_19'         │ 'EUI64-0090DAFFFF007148' │   0   │   223    │     29      │   true   │
+│   33    │  '783825'  │ 'EUI64-0090DAFFFF0040AA' │ '338354'  │       'Test26(PF11)'        │ 'EUI64-0090DAFFFF00738A' │   0   │   256    │     55      │   true   │
+│   34    │  '732449'  │ 'EUI64-0090DAFFFF0040AA' │ '164832'  │         'TuoWen_18'         │ 'EUI64-0090DAFFFF00719A' │   0   │   224    │     25      │   true   │
+│   35    │  '114190'  │ 'EUI64-0090DAFFFF0040AA' │ '263804'  │      'Huawei-1-E2-2F'       │ 'EUI64-0090DAFFFF006900' │   0   │    21    │      4      │   true   │
+│   36    │  '434888'  │ 'EUI64-0090DAFFFF0040AA' │ '294936'  │ 'Astra Zeneca P1 Floor 2-C' │ 'EUI64-0090DAFFFF006A8A' │   0   │    86    │     12      │   true   │

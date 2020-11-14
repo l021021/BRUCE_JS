@@ -1,0 +1,58 @@
+{
+    "editor.renderWhitespace": "none",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "todo-tree.highlights.enabled": false,
+    "window.zoomLevel": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "explorer.confirmDelete": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.run": "onSave",
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.enableAllHovers": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "python.jediEnabled": false,
+    "workbench.colorTheme": "Eva Dark Bold",
+    "workbench.iconTheme": "ayu",
+    "workbench.sideBar.location": "left",
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.renderCharacters": false,
+    "editor.snippetSuggestions": "top",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.settings.useSplitJSON": true,
+    "explorer.sortOrder": "modified",
+    "search.smartCase": true,
+    "debug.inlineValues": true,
+    "scm.alwaysShowActions": true,
+    "scm.defaultViewMode": "tree",
+    "problems.showCurrentInStatus": true,
+    "timeline.pageSize": 80,
+    "git.allowForcePush": true,
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.format.enable": true,
+    "eslint.quiet": true
+}
