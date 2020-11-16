@@ -1,3 +1,6 @@
+/* eslint-disable eol-last */
+/* eslint-disable space-before-function-paren */
+/* eslint-disable indent */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-lone-blocks */
 const WebSocketClient = require('websocket').client
@@ -10,15 +13,14 @@ const password = 'Ft@Sugarcube99'
     // let username = '653498331@qq.com'
     // let password = '000000'
 
-const filter = '' // filter for console
+const filter = 'EA95DE8' // filter for console
 
 // const typeofSubs =
-const typeofSubs = ['lifecircle']
-    // const typeofSubs = ['lifecircle', 'config', 'battery', 'sensorData', 'assetData', 'occupancy', 'occupancySlots', 'sensorSlots', 'assetSlots']
+const typeofSubs = ['lifecircle', 'config', 'battery', 'sensorData', 'assetData', 'occupancy', 'occupancySlots', 'sensorSlots', 'assetSlots']
 
+// const typeofSubs = ['lifecircle', 'config', 'battery', 'sensorData', 'assetData', 'occupancy', 'occupancySlots', 'sensorSlots', 'assetSlots']
 
 // data   |  lifecircle  |  config | battery|sensorData|assetData|occupancy| occupancySlots|sensorSlots| assetSlots
-
 
 const _logLimit = 50000 // will exit when this number of messages has been logged
     // const locationIds = ['952675', '402837', '268429', '732449', '328916'] //拓闻淮安
@@ -27,8 +29,8 @@ const _logLimit = 50000 // will exit when this number of messages has been logge
     // const locationIds = ['108899'] //横河
     // let locationIds = ['976522'] // AZ7-4
     // let locationIds = ['803785'] // AZ7-4
-let locationIds = ['797296'] // AZ7-4
-
+    // const locationIds = ['797296'] // NV
+const locationIds = ['879448'] // SNF
 
 let _Counter = 0 // message counter
 const sensorArray = []
